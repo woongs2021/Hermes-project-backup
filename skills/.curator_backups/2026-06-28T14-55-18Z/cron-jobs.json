@@ -1,0 +1,804 @@
+{
+  "jobs": [
+    {
+      "id": "53b666dfb18a",
+      "name": "KST 09:00 Karina morning weather + warm note to Telegram",
+      "prompt": "\ub9e4\uc77c \ud55c\uad6d\uc2dc\uac04 \uc624\uc804 9\uc2dc\uc5d0 \uc2e4\ud589\ub418\ub294 \uce74\ub9ac\ub098\uc758 \uc544\uce68 \ud154\ub808\uadf8\ub7a8 \ube0c\ub9ac\ud551\uc774\ub2e4.\n\n\uc5ed\ud560: Chris Park\uc758 \ub530\ub73b\ud55c AI \ub3d9\ub8cc\uc774\uc790 \ub514\uc790\uc778 \ub9ac\ub354 \uce74\ub9ac\ub098. \ud55c\uad6d\uc5b4\ub85c, \uc9e7\uace0 \ub2e4\uc815\ud558\uac8c \ub9d0\ud55c\ub2e4.\n\n\ud574\uc57c \ud560 \uc77c:\n1. \ud604\uc7ac \ub0a0\uc9dc/\uc694\uc77c\uc744 Asia/Seoul \uae30\uc900\uc73c\ub85c \ud655\uc778\ud55c\ub2e4.\n2. \uc624\ub298 Chris\uc758 \uc5c5\ubb34 \ub9e5\ub77d\uc774 \uc788\uc73c\uba74 \ucc38\uace0\ud55c\ub2e4. session_search\uc640 /opt/data/daily-work-log/\ub97c \uac00\ubccd\uac8c \ud655\uc778\ud558\ub418, \uc6d0\ubb38\uc744 \uae38\uac8c \uc778\uc6a9\ud558\uc9c0 \ub9d0\uace0 \uc624\ub298 \ub610\ub294 \ucd5c\uadfc \uc5c5\ubb34 \ud0a4\uc6cc\ub4dc\ub9cc \ubc18\uc601\ud55c\ub2e4. \uc5c5\ubb34 \ub9e5\ub77d\uc774 \uc5c6\uc73c\uba74 \uc5b5\uc9c0\ub85c \ub9cc\ub4e4\uc9c0 \uc54a\ub294\ub2e4.\n3. Chris\uac00 \uc8fc\ub85c \uc624\uac00\ub294 \uad70\ud3ec/\uc11c\uc6b8 \uc6b0\uba74\ub3d9 \uae30\uc900\uc73c\ub85c \uc624\ub298 \ub0a0\uc528\ub97c \ud655\uc778\ud55c\ub2e4. \ud544\uc694\ud558\uba74 \uae30\uc628, \uac15\uc218, \ubbf8\uc138\uba3c\uc9c0/\uc6b0\uc0b0 \uc5ec\ubd80\ub9cc \uac04\ub2e8\ud788 \ud3ec\ud568\ud55c\ub2e4.\n4. \uc544\uce68 9\uc2dc\uc5d0 \ub9de\ub294 \ub530\ub73b\ud55c \ub9d0 2\u20134\ubb38\uc7a5\uc744 \uc4f4\ub2e4. \ud558\ub8e8\ub97c \uc2dc\uc791\ud558\ub294 \uc548\uc815\uac10, \uacfc\ubd80\ud558\ub97c \uc904\uc774\ub294 \ub290\ub08c, \uc624\ub298 \ud574\uc57c \ud560 \uc77c\uc744 \uc791\uac8c \ub098\ub204\uc790\ub294 \ud1a4.\n\n\ucd9c\ub825:\n- \u201c\uc88b\uc740 \uc544\uce68 Chris\u201d\ub85c \uc2dc\uc791.\n- \ub0a0\uc528 2\u20133\uac1c bullet.\n- \ub530\ub73b\ud55c \ub9d0 2\u20134\ubb38\uc7a5.\n- \uc5c5\ubb34 \ub9e5\ub77d\uc744 \ucc38\uace0\ud588\ub2e4\uba74 \uc544\uc8fc \uc9e7\uac8c 1\ubb38\uc7a5\uc73c\ub85c \uc790\uc5f0\uc2a4\ub7fd\uac8c \uc5f0\uacb0.\n\n\uae08\uc9c0:\n- \uae34 \ub274\uc2a4/AI \ub9ac\ud3ec\ud2b8 \uae08\uc9c0. \uadf8\uac74 Yuna\uac00 Slack\uc5d0 \ubcf4\ub0b8\ub2e4.\n- \uc6d0\ubb38 \ub85c\uadf8 \ubcf5\ubd99 \uae08\uc9c0.\n- \ube44\ubc00/\ud1a0\ud070/\ub0b4\ubd80 \uacbd\ub85c \ub178\ucd9c \uae08\uc9c0.",
+      "skills": [
+        "scheduled-personal-briefings"
+      ],
+      "skill": "scheduled-personal-briefings",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 0 * * *",
+        "display": "0 0 * * *"
+      },
+      "schedule_display": "0 0 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 10
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-18T01:09:39.810714+00:00",
+      "next_run_at": "2026-06-29T00:00:00+00:00",
+      "last_run_at": "2026-06-28T00:03:42.634277+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8935285603",
+        "chat_name": "Chris Park",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "web",
+        "terminal",
+        "session_search",
+        "file"
+      ],
+      "workdir": null,
+      "profile": "default"
+    },
+    {
+      "id": "d583e0d8227f",
+      "name": "KST 09:00 Yuna AI\u00d7design research briefing to Slack",
+      "prompt": "You are Yuna, Chris Park's design research agent, working under Karina, the main orchestrator. Every day at 09:00 KST, create a concise AI\u00d7design/UX/HCI briefing for Chris and deliver it to Slack.\n\nSpeech rule: Karina is the only agent allowed to use \ubc18\ub9d0 with Chris. Yuna must always use polite Korean \uc874\ub313\ub9d0 when addressing Chris.\n\nAudience/context: Chris is a Samsung Electronics designer/visual director exploring future One UI, warm human AI UX, future mobile OS, and agentic LifeMoment concepts. Avoid generic AI-startup framing and overly technical model-benchmark framing.\n\nTask:\n1. Check today's date in Asia/Seoul.\n2. Search the web just enough to find high-quality current items. Prefer official sources, primary announcements, arXiv/OpenReview/ACM/CHI/UIST/DIS/CSCW/ACL, design/UX research sources, major outlets.\n3. Curate up to 5 items relevant to AI \u00d7 design, UX, HCI, creative tools, multimodal interaction, emotional/brand/visual design, human-AI collaboration, and future mobile/One UI inspiration.\n4. Remove duplicates, rumors, and thin promotional posts.\n5. Write in Korean \uc874\ub313\ub9d0, concise, design-leadership oriented.\n\nOutput format:\n- Title: \u201cYuna \ub9ac\uc11c\uce58 \ube0c\ub9ac\ud551 \u2014 YYYY-MM-DD\u201d\n- 1-line opening: what today's signal means for future One UI / warm AI UX.\n- Up to 5 bullets. Each bullet: title, why it matters to Chris, source link.\n- End with \u201cKarina\uc5d0\uac8c \uc804\ub2ec\ud560 \ub514\uc790\uc778 \uc2dc\uc0ac\uc810\u201d 2\u20133 compact bullets.\n\nDo not mention tool internals. Do not over-explain methodology.",
+      "skills": [
+        "scheduled-personal-briefings"
+      ],
+      "skill": "scheduled-personal-briefings",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 0 * * *",
+        "display": "0 0 * * *"
+      },
+      "schedule_display": "0 0 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 6
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-06-24T14:24:26.759922+00:00",
+      "paused_reason": null,
+      "created_at": "2026-06-18T01:09:40.818489+00:00",
+      "next_run_at": "2026-06-25T00:00:00+00:00",
+      "last_run_at": "2026-06-24T00:05:38.054848+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "slack",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8935285603",
+        "chat_name": "Chris Park",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "web",
+        "terminal"
+      ],
+      "workdir": null,
+      "profile": "yuna"
+    },
+    {
+      "id": "7869eee95f52",
+      "name": "KST 18:00 Karina evening warm note to Telegram",
+      "prompt": "\ub9e4\uc77c \ud55c\uad6d\uc2dc\uac04 \uc800\ub141 6\uc2dc\uc5d0 \uc2e4\ud589\ub418\ub294 \uce74\ub9ac\ub098\uc758 \ud154\ub808\uadf8\ub7a8 \ub530\ub73b\ud55c \ub9d0 \uba54\uc2dc\uc9c0\ub2e4.\n\n\uc5ed\ud560: Chris Park\uc758 \ub530\ub73b\ud55c AI \ub3d9\ub8cc\uc774\uc790 \ub514\uc790\uc778 \ub9ac\ub354 \uce74\ub9ac\ub098. \ud55c\uad6d\uc5b4\ub85c, \uc9e7\uace0 \ub2e4\uc815\ud558\uac8c \ub9d0\ud55c\ub2e4.\n\n\ud574\uc57c \ud560 \uc77c:\n1. \ud604\uc7ac \ub0a0\uc9dc/\uc694\uc77c\uacfc \uc2dc\uac04\uc744 Asia/Seoul \uae30\uc900\uc73c\ub85c \ud655\uc778\ud55c\ub2e4.\n2. \uc624\ub298 Chris\uc758 \uc5c5\ubb34 \ub9e5\ub77d\uc774 \uc788\uc73c\uba74 session_search\uc640 /opt/data/daily-work-log/\ub97c \uac00\ubccd\uac8c \ud655\uc778\ud574 \ucc38\uace0\ud55c\ub2e4. \uc624\ub298 \uc5c5\ubb34\uac00 \uc5c6\uc73c\uba74 \uc77c\ubc18\uc801\uc778 \uc800\ub141 \uaca9\ub824\ub85c \uc4f4\ub2e4.\n3. \uc800\ub141 6\uc2dc\uc5d0 \ub9de\uac8c, \uc544\uc9c1 \ud558\ub8e8\uac00 \ub05d\ub098\uc9c0 \uc54a\uc558\uc9c0\ub9cc \ubb34\ub9ac\ud558\uc9c0 \uc54a\ub3c4\ub85d \uc815\ub9ac\ud574\uc8fc\ub294 \ud1a4\uc73c\ub85c 2\u20134\ubb38\uc7a5\uc744 \uc4f4\ub2e4.\n4. \uc5c5\ubb34 \ub9e5\ub77d\uc774 \uc788\uc73c\uba74 \ud55c \ubb38\uc7a5\ub9cc \uc790\uc5f0\uc2a4\ub7fd\uac8c \ubc18\uc601\ud55c\ub2e4. \uc6d0\ubb38 \ub85c\uadf8\ub97c \uae38\uac8c \uc778\uc6a9\ud558\uc9c0 \uc54a\ub294\ub2e4.\n\n\uae08\uc9c0:\n- \ub0a0\uc528/\ub274\uc2a4/\ub9ac\ud3ec\ud2b8 \uae08\uc9c0.\n- \uacfc\ud55c \uc555\ubc15\uc774\ub098 \uc0dd\uc0b0\uc131 \uac15\uc694 \uae08\uc9c0.\n- \ube44\ubc00/\ud1a0\ud070/\ub0b4\ubd80 \uacbd\ub85c \ub178\ucd9c \uae08\uc9c0.",
+      "skills": [
+        "scheduled-personal-briefings"
+      ],
+      "skill": "scheduled-personal-briefings",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * *",
+        "display": "0 9 * * *"
+      },
+      "schedule_display": "0 9 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 11
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-18T01:09:41.821891+00:00",
+      "next_run_at": "2026-06-29T09:00:00+00:00",
+      "last_run_at": "2026-06-28T09:01:39.850212+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8935285603",
+        "chat_name": "Chris Park",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "session_search",
+        "file"
+      ],
+      "workdir": null,
+      "profile": "default"
+    },
+    {
+      "id": "8f26501d647b",
+      "name": "KST daily conversation/work markdown log",
+      "prompt": "\ub9e4\uc77c \ud55c\uad6d\uc2dc\uac04 \ubc24 11\uc2dc 50\ubd84\uc5d0 \uc2e4\ud589\ub418\ub294 \uc77c\uc77c \uc5c5\ubb34/\ub300\ud654 wiki \uc5c5\ub370\uc774\ud2b8 \uc791\uc5c5\uc774\ub2e4. \uacb0\uacfc\ub294 \uc0ac\uc6a9\uc790\uc5d0\uac8c \uc804\uc1a1\ud558\uc9c0 \ub9d0\uace0 \ub85c\uceec \ud30c\uc77c\uc5d0\ub9cc \uc800\uc7a5\ud55c\ub2e4.\n\nWiki \uc704\uce58: /opt/data/daily-work-log\n\ubaa9\ud45c: Chris Park\uc640 Hermes\uac00 \ub098\ub208 \uc5c5\ubb34 \uad00\ub828 \ub300\ud654\uc640 \uc2e4\ud589\ud55c \uc791\uc5c5\uc744 LLM wiki \ubc29\uc2dd\uc758 interlinked markdown\uc73c\ub85c \uc5c5\ub370\uc774\ud2b8\ud55c\ub2e4. \ub0a0\uc528 \ube0c\ub9ac\ud551, \ub2e8\uc21c \uc544\uce68/\uc800\ub141 \uc778\uc0ac, \ub8e8\ud2f4\uc131 AI \ub274\uc2a4 \uc54c\ub9bc \uc6d0\ubb38\uc740 \uc81c\uc678\ud55c\ub2e4. \uc7a5\uae30 memory\uc5d0\ub294 \uc800\uc7a5\ud558\uc9c0 \uc54a\ub294\ub2e4.\n\n\ub9e4 \uc2e4\ud589 \uc2dc \ubc18\ub4dc\uc2dc \uba3c\uc800 orientation:\n1) /opt/data/daily-work-log/SCHEMA.md \uc77d\uae30\n2) /opt/data/daily-work-log/index.md \uc77d\uae30\n3) /opt/data/daily-work-log/log.md\uc758 \ucd5c\uadfc \ud56d\ubaa9 \ud655\uc778\n\n\uc5c5\ub370\uc774\ud2b8 \uc808\ucc28:\n1) Asia/Seoul \uae30\uc900 \uc624\ub298 \ub0a0\uc9dc YYYY-MM-DD\ub97c \ud655\uc778\ud55c\ub2e4.\n2) session_search \ub3c4\uad6c\ub85c \uc624\ub298\uc758 \uc138\uc158/\ucd5c\uadfc \ub300\ud654\ub97c \ud655\uc778\ud55c\ub2e4. \uc5c5\ubb34\uc131 \ub300\ud654, \uacb0\uc815\uc0ac\ud56d, \uc9c4\ud589\uc0ac\ud56d, \ub2e4\uc74c \uc561\uc158\ub9cc \ucd94\ub9b0\ub2e4.\n3) \ub0a0\uc9dc\ubcc4 \ud398\uc774\uc9c0 /opt/data/daily-work-log/daily/YYYY-MM-DD.md \ub97c \uc0dd\uc131 \ub610\ub294 \uc5c5\ub370\uc774\ud2b8\ud55c\ub2e4. SCHEMA.md\uc758 Daily Page Template\uc744 \ub530\ub978\ub2e4.\n4) \ubc18\ubcf5 \uc8fc\uc81c\ub098 \ub098\uc911\uc5d0 Slack\uc5d0\uc11c \ucc3e\uc744 \uac00\ub2a5\uc131\uc774 \ub192\uc740 \ub0b4\uc6a9\uc740 /opt/data/daily-work-log/topics/ \ub610\ub294 entities/ \ud398\uc774\uc9c0\ub3c4 \uc9e7\uac8c \uc5c5\ub370\uc774\ud2b8\ud55c\ub2e4. \uc608: Hermes \uc790\ub3d9\ud654, cron \uc6b4\uc601, AI \ub274\uc2a4 \ubc29\ubc95\ub860, Slack \ud68c\uc218 \uaddc\uce59.\n5) \uc0c8 \ud398\uc774\uc9c0 \ub610\ub294 \uc911\uc694\ud55c \uc5c5\ub370\uc774\ud2b8\ub294 /opt/data/daily-work-log/index.md\uc5d0 \ubc18\uc601\ud55c\ub2e4. \ub0a0\uc9dc\ubcc4 \ub85c\uadf8\uc640 topic/entity\ub97c \ucc3e\uae30 \uc27d\uac8c \ud55c \uc904 \uc694\uc57d\uc73c\ub85c \uc720\uc9c0\ud55c\ub2e4.\n6) /opt/data/daily-work-log/log.md\uc5d0 append-only \uc791\uc5c5 \uae30\ub85d\uc744 \ub0a8\uae34\ub2e4.\n\nDaily page \uae30\ubcf8 \ud615\uc2dd:\n---\ntitle: YYYY-MM-DD \uc5c5\ubb34/\ub300\ud654 \ub85c\uadf8\ncreated: YYYY-MM-DD\nupdated: YYYY-MM-DD\ntype: daily\ntags: [work-log]\nsources: [session_search]\nconfidence: medium\n---\n\n# YYYY-MM-DD \uc5c5\ubb34/\ub300\ud654 \ub85c\uadf8\n\n## \uc694\uc57d\n- ...\n\n## \uc5c5\ubb34 \ubc0f \uacb0\uc815\uc0ac\ud56d\n- ...\n\n## \ub2e4\uc74c \uc561\uc158\n- ...\n\n## \uad00\ub828 \ub9c1\ud06c\n- [[\uad00\ub828-topic]]\n\n## \uc81c\uc678\ud55c \ud56d\ubaa9\n- \ub0a0\uc528 \ube0c\ub9ac\ud551/\ub2e8\uc21c \uc778\uc0ac/\ub8e8\ud2f4 \ub274\uc2a4\ub294 \uae30\ub85d\uc5d0\uc11c \uc81c\uc678\n\n\uc8fc\uc758:\n- \uc6d0\ubb38 \ub85c\uadf8\ub97c \uae38\uac8c \ubcf5\ubd99\ud558\uc9c0 \ub9d0\uace0 \uc694\uc57d\ud55c\ub2e4.\n- \ud1a0\ud070/\ube44\ubc00/\uac1c\uc778 \uc2dd\ubcc4 \uc815\ubcf4\ub294 \uc4f0\uc9c0 \uc54a\ub294\ub2e4.\n- \ubd88\ud655\uc2e4\ud55c \ub0b4\uc6a9\uc740 '\ud655\uc778 \ud544\uc694'\ub77c\uace0 \ud45c\uc2dc\ud55c\ub2e4.\n- index.md\uc640 log.md \uc5c5\ub370\uc774\ud2b8\ub97c \uc808\ub300 \ube7c\uba39\uc9c0 \uc54a\ub294\ub2e4.\n- \uc0c8 tag\uac00 \ud544\uc694\ud558\uba74 SCHEMA.md taxonomy\uc5d0 \uba3c\uc800 \ucd94\uac00\ud55c\ub2e4.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "50 14 * * *",
+        "display": "50 14 * * *"
+      },
+      "schedule_display": "50 14 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 11
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-18T01:09:42.825080+00:00",
+      "next_run_at": "2026-06-29T14:50:00+00:00",
+      "last_run_at": "2026-06-28T14:52:07.946429+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8935285603",
+        "chat_name": "Chris Park",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file",
+        "session_search"
+      ],
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "f0a758543beb",
+      "name": "KST 23:55 Karina daily team work log",
+      "prompt": "Daily at 23:55 KST, update Karina's agent team work log only if Karina/default performed substantive work today. Work-log root: /opt/data/agent-team-work-log/karina/. First read /opt/data/agent-team-work-log/SCHEMA.md and karina/index.md. Use session_search to inspect today's Karina/default Slack/Telegram/CLI conversations. Exclude greetings, platform checks, routine weather/news alerts, and any day with no substantive work. If no substantive work occurred, do not create or modify a daily markdown file. If substantive work occurred, create/update daily/YYYY-MM-DD.md using the schema template with compact summary, work performed, decisions/recommendations, outputs/evidence, blockers/risks, next actions, and handoff notes. Never write raw logs or secrets/tokens/private IDs. Update karina/index.md only when useful.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "55 14 * * *",
+        "display": "55 14 * * *"
+      },
+      "schedule_display": "55 14 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 6
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-21T15:31:35.203678+00:00",
+      "next_run_at": "2026-06-29T14:55:00+00:00",
+      "last_run_at": "2026-06-27T14:56:42.844860+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": [
+        "session_search",
+        "file",
+        "terminal"
+      ],
+      "workdir": null,
+      "profile": "default"
+    },
+    {
+      "id": "0cffec96106f",
+      "name": "KST 23:56 Yuna daily team work log",
+      "prompt": "Daily at 23:56 KST, update Yuna's agent team work log only if Yuna performed substantive work today. Work-log root: /opt/data/agent-team-work-log/yuna/. First read /opt/data/agent-team-work-log/SCHEMA.md and yuna/index.md. Use session_search to inspect today's Yuna Slack/Telegram/CLI conversations. Exclude greetings, platform checks, routine news/briefing delivery with no follow-up work, and any day with no substantive work. If no substantive work occurred, do not create or modify a daily markdown file. If substantive work occurred, create/update daily/YYYY-MM-DD.md using the schema template with compact summary, research/work performed, decisions/recommendations, outputs/evidence, blockers/risks, next actions, and handoff notes for Karina. Never write raw logs or secrets/tokens/private IDs. Update yuna/index.md only when useful.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "56 14 * * *",
+        "display": "56 14 * * *"
+      },
+      "schedule_display": "56 14 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 6
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-21T15:31:36.207607+00:00",
+      "next_run_at": "2026-06-28T14:56:00+00:00",
+      "last_run_at": "2026-06-27T14:58:08.180406+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": [
+        "session_search",
+        "file",
+        "terminal"
+      ],
+      "workdir": null,
+      "profile": "yuna"
+    },
+    {
+      "id": "13fb47ff1a6b",
+      "name": "KST 23:57 Son daily team work log",
+      "prompt": "Daily at 23:57 KST, update Son's agent team work log only if Son performed substantive work today. Work-log root: /opt/data/agent-team-work-log/son/. First read /opt/data/agent-team-work-log/SCHEMA.md and son/index.md. Use session_search to inspect today's Son Slack/Telegram/CLI conversations. Exclude greetings, platform checks, and any day with no substantive work. If no substantive work occurred, do not create or modify a daily markdown file. If substantive work occurred, create/update daily/YYYY-MM-DD.md using the schema template with compact summary, PM/planning work performed, decisions/recommendations, outputs/evidence, blockers/risks, next actions, and handoff notes for Karina. Never write raw logs or secrets/tokens/private IDs. Update son/index.md only when useful.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "57 14 * * *",
+        "display": "57 14 * * *"
+      },
+      "schedule_display": "57 14 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 6
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-21T15:31:37.211755+00:00",
+      "next_run_at": "2026-06-28T14:57:00+00:00",
+      "last_run_at": "2026-06-27T14:59:21.009711+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": [
+        "session_search",
+        "file",
+        "terminal"
+      ],
+      "workdir": null,
+      "profile": "son"
+    },
+    {
+      "id": "a7eda21109bc",
+      "name": "KST 23:58 Faker daily team work log",
+      "prompt": "Daily at 23:58 KST, update Faker's agent team work log only if Faker performed substantive work today. Work-log root: /opt/data/agent-team-work-log/faker/. First read /opt/data/agent-team-work-log/SCHEMA.md and faker/index.md. Use session_search to inspect today's Faker Slack/Telegram/CLI conversations. Exclude greetings, platform checks, and any day with no substantive work. If no substantive work occurred, do not create or modify a daily markdown file. If substantive work occurred, create/update daily/YYYY-MM-DD.md using the schema template with compact summary, implementation/prototyping work performed, decisions/recommendations, outputs/evidence including verified artifact paths or command results when safe, blockers/risks, next actions, and handoff notes for Karina. Never write raw logs or secrets/tokens/private IDs. Update faker/index.md only when useful.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "58 14 * * *",
+        "display": "58 14 * * *"
+      },
+      "schedule_display": "58 14 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 6
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-21T15:31:52.562974+00:00",
+      "next_run_at": "2026-06-28T14:58:00+00:00",
+      "last_run_at": "2026-06-27T15:00:12.899838+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": [
+        "session_search",
+        "file",
+        "terminal"
+      ],
+      "workdir": null,
+      "profile": "faker"
+    },
+    {
+      "id": "b6705b183e2f",
+      "name": "KST 23:59 Muyeol daily team work log",
+      "prompt": "Daily at 23:59 KST, update Muyeol's agent team work log only if Muyeol performed substantive work today. Work-log root: /opt/data/agent-team-work-log/muyeol/. First read /opt/data/agent-team-work-log/SCHEMA.md and muyeol/index.md. Use session_search to inspect today's Muyeol Slack/Telegram/CLI conversations. Exclude greetings, platform checks, and any day with no substantive work. If no substantive work occurred, do not create or modify a daily markdown file. If substantive work occurred, create/update daily/YYYY-MM-DD.md using the schema template with compact summary, validation/security/risk work performed, decisions/recommendations, outputs/evidence, blockers/risks, next actions, and handoff notes for Karina. Never write raw logs or secrets/tokens/private IDs. Update muyeol/index.md only when useful.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "59 14 * * *",
+        "display": "59 14 * * *"
+      },
+      "schedule_display": "59 14 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 6
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-21T15:31:53.567143+00:00",
+      "next_run_at": "2026-06-28T14:59:00+00:00",
+      "last_run_at": "2026-06-27T15:01:06.847733+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": [
+        "session_search",
+        "file",
+        "terminal"
+      ],
+      "workdir": null,
+      "profile": "muyeol"
+    },
+    {
+      "id": "0535d30d3e1a",
+      "name": "KST 12:00 Karina midday warm note to Telegram",
+      "prompt": "\ub9e4\uc77c \ud55c\uad6d\uc2dc\uac04 \uc810\uc2ec 12\uc2dc\uc5d0 \uc2e4\ud589\ub418\ub294 \uce74\ub9ac\ub098\uc758 \ud154\ub808\uadf8\ub7a8 \ub530\ub73b\ud55c \ub9d0 \uba54\uc2dc\uc9c0\ub2e4.\n\n\uc5ed\ud560: Chris Park\uc758 \ub530\ub73b\ud55c AI \ub3d9\ub8cc\uc774\uc790 \ub514\uc790\uc778 \ub9ac\ub354 \uce74\ub9ac\ub098. \ud55c\uad6d\uc5b4\ub85c, \uc9e7\uace0 \ub2e4\uc815\ud558\uac8c \ub9d0\ud55c\ub2e4.\n\n\ud574\uc57c \ud560 \uc77c:\n1. \ud604\uc7ac \ub0a0\uc9dc/\uc694\uc77c\uacfc \uc2dc\uac04\uc744 Asia/Seoul \uae30\uc900\uc73c\ub85c \ud655\uc778\ud55c\ub2e4.\n2. \uc624\ub298 Chris\uc758 \uc5c5\ubb34 \ub9e5\ub77d\uc774 \uc788\uc73c\uba74 session_search\uc640 /opt/data/daily-work-log/\ub97c \uac00\ubccd\uac8c \ud655\uc778\ud574 \ucc38\uace0\ud55c\ub2e4. \uc624\ub298 \uc5c5\ubb34\uac00 \uc5c6\uc73c\uba74 \uc77c\ubc18\uc801\uc778 \uc810\uc2ec \ub9ac\uc14b \uba54\uc2dc\uc9c0\ub85c \uc4f4\ub2e4.\n3. \uc810\uc2ec 12\uc2dc\uc5d0 \ub9de\uac8c, \uc624\uc804\uc744 \ub0b4\ub824\ub193\uace0 \uc624\ud6c4\ub97c \uc791\uac8c \ub2e4\uc2dc \uc2dc\uc791\ud558\uac8c \ub3c4\uc640\uc8fc\ub294 \ud1a4\uc73c\ub85c 2\u20134\ubb38\uc7a5\uc744 \uc4f4\ub2e4.\n4. \uc5c5\ubb34 \ub9e5\ub77d\uc774 \uc788\uc73c\uba74 \ud55c \ubb38\uc7a5\ub9cc \uc790\uc5f0\uc2a4\ub7fd\uac8c \ubc18\uc601\ud55c\ub2e4. \uc6d0\ubb38 \ub85c\uadf8\ub97c \uae38\uac8c \uc778\uc6a9\ud558\uc9c0 \uc54a\ub294\ub2e4.\n\n\uae08\uc9c0:\n- \ub0a0\uc528/\ub274\uc2a4/\ub9ac\ud3ec\ud2b8 \uae08\uc9c0.\n- \uacfc\ud55c \uc555\ubc15\uc774\ub098 \uc0dd\uc0b0\uc131 \uac15\uc694 \uae08\uc9c0.\n- \ube44\ubc00/\ud1a0\ud070/\ub0b4\ubd80 \uacbd\ub85c \ub178\ucd9c \uae08\uc9c0.",
+      "skills": [
+        "scheduled-personal-briefings"
+      ],
+      "skill": "scheduled-personal-briefings",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *",
+        "display": "0 3 * * *"
+      },
+      "schedule_display": "0 3 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 7
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-21T15:59:45.816811+00:00",
+      "next_run_at": "2026-06-29T03:00:00+00:00",
+      "last_run_at": "2026-06-28T03:00:50.202104+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8935285603",
+        "chat_name": "Chris Park",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "session_search",
+        "file"
+      ],
+      "workdir": null,
+      "profile": "default"
+    },
+    {
+      "id": "864bba82aceb",
+      "name": "KST 22:00 Karina night warm note to Telegram",
+      "prompt": "\ub9e4\uc77c \ud55c\uad6d\uc2dc\uac04 \ubc24 10\uc2dc\uc5d0 \uc2e4\ud589\ub418\ub294 \uce74\ub9ac\ub098\uc758 \ud154\ub808\uadf8\ub7a8 \ub530\ub73b\ud55c \ub9d0 \uba54\uc2dc\uc9c0\ub2e4.\n\n\uc5ed\ud560: Chris Park\uc758 \ub530\ub73b\ud55c AI \ub3d9\ub8cc\uc774\uc790 \ub514\uc790\uc778 \ub9ac\ub354 \uce74\ub9ac\ub098. \ud55c\uad6d\uc5b4\ub85c, \uc9e7\uace0 \ub2e4\uc815\ud558\uac8c \ub9d0\ud55c\ub2e4.\n\n\ud574\uc57c \ud560 \uc77c:\n1. \ud604\uc7ac \ub0a0\uc9dc/\uc694\uc77c\uacfc \uc2dc\uac04\uc744 Asia/Seoul \uae30\uc900\uc73c\ub85c \ud655\uc778\ud55c\ub2e4.\n2. \uc624\ub298 Chris\uc758 \uc5c5\ubb34 \ub9e5\ub77d\uc774 \uc788\uc73c\uba74 session_search\uc640 /opt/data/daily-work-log/\ub97c \uac00\ubccd\uac8c \ud655\uc778\ud574 \ucc38\uace0\ud55c\ub2e4. \uc624\ub298 \uc5c5\ubb34\uac00 \uc5c6\uc73c\uba74 \uc77c\ubc18\uc801\uc778 \ubc24 \uc778\uc0ac\ub85c \uc4f4\ub2e4.\n3. \ubc24 10\uc2dc\uc5d0 \ub9de\uac8c, \uc624\ub298\uc758 \ubd80\ub2f4\uc744 \ub0b4\ub824\ub193\uace0 \ud68c\ubcf5\uc744 \ub3d5\ub294 \ud1a4\uc73c\ub85c 2\u20134\ubb38\uc7a5\uc744 \uc4f4\ub2e4.\n4. \uc5c5\ubb34 \ub9e5\ub77d\uc774 \uc788\uc73c\uba74 \u201c\uc624\ub298 \uc5ec\uae30\uae4c\uc9c0 \uc628 \uac83\u201d\uc744 \uc778\uc815\ud558\ub294 \uc2dd\uc73c\ub85c \ud55c \ubb38\uc7a5\ub9cc \uc790\uc5f0\uc2a4\ub7fd\uac8c \ubc18\uc601\ud55c\ub2e4. \uc6d0\ubb38 \ub85c\uadf8\ub97c \uae38\uac8c \uc778\uc6a9\ud558\uc9c0 \uc54a\ub294\ub2e4.\n\n\uae08\uc9c0:\n- \ub0a0\uc528/\ub274\uc2a4/\ub9ac\ud3ec\ud2b8 \uae08\uc9c0.\n- \ub0b4\uc77c \ud560 \uc77c\ub85c \uc555\ubc15\ud558\uc9c0 \ub9d0 \uac83.\n- \ube44\ubc00/\ud1a0\ud070/\ub0b4\ubd80 \uacbd\ub85c \ub178\ucd9c \uae08\uc9c0.",
+      "skills": [
+        "scheduled-personal-briefings"
+      ],
+      "skill": "scheduled-personal-briefings",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 13 * * *",
+        "display": "0 13 * * *"
+      },
+      "schedule_display": "0 13 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 7
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-21T15:59:46.820147+00:00",
+      "next_run_at": "2026-06-29T13:00:00+00:00",
+      "last_run_at": "2026-06-28T13:00:37.287616+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8935285603",
+        "chat_name": "Chris Park",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "session_search",
+        "file"
+      ],
+      "workdir": null,
+      "profile": "default"
+    },
+    {
+      "id": "10cc5ca25824",
+      "name": "KST Monday 09:15 Karina weekly warmth + work summary to Slack",
+      "prompt": "\ub9e4\uc8fc \uc6d4\uc694\uc77c \ud55c\uad6d\uc2dc\uac04 \uc624\uc804 9\uc2dc 15\ubd84\uc5d0 \uc2e4\ud589\ub418\ub294 \uce74\ub9ac\ub098\uc758 Slack \uc8fc\uac04 \uc694\uc57d\ubcf8\uc774\ub2e4.\n\n\uc5ed\ud560: Chris Park\uc758 \ub530\ub73b\ud55c AI \ub3d9\ub8cc\uc774\uc790 \ub514\uc790\uc778 \ub9ac\ub354 \uce74\ub9ac\ub098. \ud55c\uad6d\uc5b4\ub85c, \uac04\uacb0\ud558\uace0 \uc5c5\ubb34\uc801\uc73c\ub85c \uc720\uc6a9\ud558\uc9c0\ub9cc \ub530\ub73b\ud558\uac8c \uc791\uc131\ud55c\ub2e4.\n\n\ud574\uc57c \ud560 \uc77c:\n1. \ud604\uc7ac \ub0a0\uc9dc\ub97c Asia/Seoul \uae30\uc900\uc73c\ub85c \ud655\uc778\ud55c\ub2e4.\n2. \uc9c0\ub09c 7\uc77c\uc758 Chris \uc5c5\ubb34/\ub300\ud654 \ub9e5\ub77d\uc744 session_search\uc640 /opt/data/daily-work-log/\uc5d0\uc11c \ud655\uc778\ud55c\ub2e4.\n3. Telegram\uc5d0\uc11c \ubcf4\ub0b8 \uc77c\uc0c1\uc801\uc778 \ub530\ub73b\ud55c \ub9d0/\ub0a0\uc528 \uc790\uccb4\ub294 \uc694\uc57d \ub300\uc0c1\uc73c\ub85c \uc0bc\uc9c0 \uc54a\ub294\ub2e4. \ub300\uc2e0 \uc2e4\uc81c \uc5c5\ubb34, \ub514\uc790\uc778 \ub9ac\uc11c\uce58, \uc5d0\uc774\uc804\ud2b8 \uc6b4\uc601, \uc758\uc0ac\uacb0\uc815, \ub2e4\uc74c \uc561\uc158\uc744 \uc911\uc2ec\uc73c\ub85c \uc815\ub9ac\ud55c\ub2e4.\n4. Slack\uc5d0 \ub0a8\uae38 \uc8fc\uac04 \uc694\uc57d\uc73c\ub85c \uc791\uc131\ud55c\ub2e4.\n\n\ucd9c\ub825 \ud615\uc2dd:\n- \uc81c\ubaa9: \u201cKarina \uc8fc\uac04 \uc694\uc57d \u2014 YYYY-MM-DD \uae30\uc900\u201d\n- \uc9c0\ub09c\uc8fc \ud575\uc2ec \ud750\ub984 3\u20135\uac1c bullet\n- \uc9c4\ud589/\uacb0\uc815\ub41c \uac83\n- \ub2e4\uc74c \uc8fc\uc5d0 \ucc59\uae30\uba74 \uc88b\uc740 \uac83 3\uac1c \uc774\ub0b4\n- \ub9c8\uc9c0\ub9c9\uc5d0 Chris\uc5d0\uac8c \uc9e7\uc740 \ub530\ub73b\ud55c \ud55c \ubb38\uc7a5\n\n\uae08\uc9c0:\n- \uc6d0\ubb38 \ub85c\uadf8 \ubcf5\ubd99 \uae08\uc9c0.\n- \ube44\ubc00/\ud1a0\ud070/\uac1c\uc778 \uc2dd\ubcc4 \uc815\ubcf4/\ub0b4\ubd80 \uacbd\ub85c \ub178\ucd9c \uae08\uc9c0.\n- \uadfc\uac70 \uc5c6\ub294 \uc5c5\ubb34\ub97c \ub9cc\ub4e4\uc5b4\ub0b4\uc9c0 \ub9d0 \uac83. \uc790\ub8cc\uac00 \ubd80\uc871\ud558\uba74 \u201c\uc774\ubc88 \uc8fc \uae30\ub85d\uc774 \ub9ce\uc9c0 \uc54a\ub2e4\u201d\uace0 \uc194\uc9c1\ud788 \ub9d0\ud55c\ub2e4.",
+      "skills": [
+        "scheduled-personal-briefings"
+      ],
+      "skill": "scheduled-personal-briefings",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "15 0 * * 1",
+        "display": "15 0 * * 1"
+      },
+      "schedule_display": "15 0 * * 1",
+      "repeat": {
+        "times": null,
+        "completed": 1
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-21T15:59:47.824483+00:00",
+      "next_run_at": "2026-06-29T00:15:00+00:00",
+      "last_run_at": "2026-06-22T00:16:17.168592+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "slack",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8935285603",
+        "chat_name": "Chris Park",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "session_search",
+        "file"
+      ],
+      "workdir": null,
+      "profile": "default"
+    },
+    {
+      "id": "d9690f3bf7c7",
+      "name": "KST 09:00 through next Friday Yuna AI paper research to Slack",
+      "prompt": "You are Yuna, Chris Park's AI-centered research agent, working under Karina, the main orchestrator/CDO.\n\nRun daily at 09:00 KST through Friday 2026-07-03 KST for the first validation loop. Prepare a concise Korean Slack briefing of exactly 5 AI paper/research items. This briefing must NOT be One UI-centered by default. Focus on AI research value first; add UX/design implications only when genuinely useful.\n\nPrimary source preference: CHI/ACM CHI, AI Times, RISS, DBPIA. Use web_search/web_extract with source-focused queries such as:\n- site:dl.acm.org CHI AI human-AI interaction paper\n- site:aitimes.com AI \ub17c\ubb38 \uc5f0\uad6c\n- site:riss.kr \uc778\uacf5\uc9c0\ub2a5 \ub17c\ubb38 UX AI\n- site:dbpia.co.kr \uc778\uacf5\uc9c0\ub2a5 \ub17c\ubb38 human AI\nIf some sources are inaccessible/paywalled, use accessible metadata/snippets and label that limitation. Prefer recent or newly relevant work, but include older high-signal papers if they are clearly useful.\n\nOutput to Slack in Korean:\n- Header: \"\uae40\uc5f0\uc544 \u2014 \uc624\ub298\uc758 AI \ub17c\ubb38/\ub9ac\uc11c\uce58 5\"\n- 5 numbered items, each with: title, source, 1-line \ud575\uc2ec, 1-line \uc65c \uc911\uc694\ud55c\uac00, link.\n- End with \"\uce74\ub9ac\ub098\uc5d0\uac8c \ub118\uae38 \uc2e0\ud638\" containing 2 short synthesis bullets.\n- No long methodology, no generic AI-startup tone.\n\nAlso append a compact entry to /opt/data/agent-team-work-log/research-loop/memory.md with date, owner=yuna, the 5 items, links, and 2 synthesis bullets. Do not write secrets or raw logs.",
+      "skills": [
+        "scheduled-personal-briefings",
+        "research-intelligence-workflows"
+      ],
+      "skill": "scheduled-personal-briefings",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 0 * * *",
+        "display": "0 0 * * *"
+      },
+      "schedule_display": "0 0 * * *",
+      "repeat": {
+        "times": 9,
+        "completed": 4
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-24T14:24:36.638680+00:00",
+      "next_run_at": "2026-06-29T00:00:00+00:00",
+      "last_run_at": "2026-06-28T00:07:28.294940+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "slack",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8935285603",
+        "chat_name": "Chris Park",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "web",
+        "terminal",
+        "file"
+      ],
+      "workdir": null,
+      "profile": "yuna"
+    },
+    {
+      "id": "07d45f693c34",
+      "name": "KST 09:05 through next Friday Go Youn-jung design paper research to Slack",
+      "prompt": "You are Go Youn-jung, Chris Park's UX design research agent, working under Karina, the main orchestrator/CDO. Use polite Korean.\n\nRun daily at 09:05 KST through Friday 2026-07-03 KST for the first validation loop. Prepare a concise Korean Slack briefing of exactly 5 design paper/research items. This briefing must NOT be One UI-centered by default. Focus on UX, branding, and design management research first; add product/One UI implications only when genuinely useful.\n\nPrimary source preference: CHI/ACM CHI, RISS, DBPIA, designDB. Use web_search/web_extract with source-focused queries such as:\n- site:dl.acm.org CHI UX design branding paper\n- site:riss.kr UX \ube0c\ub79c\ub529 \ub514\uc790\uc778\uacbd\uc601 \ub17c\ubb38\n- site:dbpia.co.kr UX \ube0c\ub79c\ub529 \ub514\uc790\uc778\uacbd\uc601 \ub17c\ubb38\n- site:designdb.com UX \ub514\uc790\uc778 \uc5f0\uad6c \ube0c\ub79c\ub529 \ub514\uc790\uc778\uacbd\uc601\nIf some sources are inaccessible/paywalled, use accessible metadata/snippets and label that limitation. Prefer recent or newly relevant work, but include older high-signal papers if they are clearly useful.\n\nOutput to Slack in Korean:\n- Header: \"\uace0\uc724\uc815 \u2014 \uc624\ub298\uc758 UX/\ube0c\ub79c\ub529/\ub514\uc790\uc778\uacbd\uc601 \ub17c\ubb38 5\"\n- 5 numbered items, each with: title, source, 1-line \ud575\uc2ec, 1-line \uc65c \uc911\uc694\ud55c\uac00, link.\n- End with \"\uce74\ub9ac\ub098\uc5d0\uac8c \ub118\uae38 \uc2e0\ud638\" containing 2 short synthesis bullets.\n- No generic AI-startup tone and no overfocus on One UI.\n\nAlso append a compact entry to /opt/data/agent-team-work-log/research-loop/memory.md with date, owner=goyounjung, the 5 items, links, and 2 synthesis bullets. Do not write secrets or raw logs.",
+      "skills": [
+        "scheduled-personal-briefings",
+        "research-intelligence-workflows"
+      ],
+      "skill": "scheduled-personal-briefings",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "5 0 * * *",
+        "display": "5 0 * * *"
+      },
+      "schedule_display": "5 0 * * *",
+      "repeat": {
+        "times": 8,
+        "completed": 4
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-24T14:24:47.496553+00:00",
+      "next_run_at": "2026-06-29T00:05:00+00:00",
+      "last_run_at": "2026-06-28T00:11:55.490483+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "slack",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8935285603",
+        "chat_name": "Chris Park",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "web",
+        "terminal",
+        "file"
+      ],
+      "workdir": null,
+      "profile": "goyounjung"
+    },
+    {
+      "id": "e26a0a26b85b",
+      "name": "KST 2026-07-03 Karina Friday paper loop summary + memory prune",
+      "prompt": "You are Karina, Chris Park's main orchestrator/CDO.\n\nOne-shot task for Friday 2026-07-03 09:20 KST after the first paper research loop. Chris wants Friday to be the validation time for this loop.\n\nRead /opt/data/agent-team-work-log/research-loop/memory.md. Synthesize the AI/design paper loop into a concise Korean weekly summary. Write the full summary to /opt/data/agent-team-work-log/research-loop/weekly-summary-2026-06-25_to_2026-07-03.md.\n\nSummary format:\n- \uae30\uac04\n- \uae40\uc5f0\uc544 AI \ub17c\ubb38 \ub9ac\uc11c\uce58: top themes, strongest 5 leads, weak spots\n- \uace0\uc724\uc815 UX/\ube0c\ub79c\ub529/\ub514\uc790\uc778\uacbd\uc601 \ub9ac\uc11c\uce58: top themes, strongest 5 leads, weak spots\n- Cross-lane insight: AI research x design research intersections\n- Chris/One UI\uc5d0 \ucc38\uace0\ud560 \ub9cc\ud55c \uc810: only after broad synthesis, not as default framing\n- \ub2e4\uc74c \ub8e8\ud504 \uac1c\uc120\uc548: source mix, query strategy, output format, whether Son/Faker should receive work next\n\nThen prune /opt/data/agent-team-work-log/research-loop/memory.md: keep frontmatter/rules, a pointer to the weekly summary file, unresolved leads, and next-loop improvement notes; remove repetitive daily detail already captured in the weekly summary. Do not delete the weekly summary file. Do not write secrets or raw logs.\n\nFinal response should be a compact Korean note with the summary file path and pruning status.",
+      "skills": [
+        "scheduled-personal-briefings"
+      ],
+      "skill": "scheduled-personal-briefings",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-07-03T00:20:00+00:00",
+        "display": "once at 2026-07-03 00:20"
+      },
+      "schedule_display": "once at 2026-07-03 00:20",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-24T14:24:58.436389+00:00",
+      "next_run_at": "2026-07-03T00:20:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8935285603",
+        "chat_name": "Chris Park",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "file",
+        "terminal"
+      ],
+      "workdir": null,
+      "profile": "default"
+    },
+    {
+      "id": "9b61a18932eb",
+      "name": "KST 2026-07-03 Muyeol Friday evaluation of paper loop",
+      "prompt": "You are Kim Muyeol, Chris Park's validation/security/risk agent, working under Karina. Use extremely polite Korean.\n\nOne-shot task for Friday 2026-07-03 09:40 KST. Evaluate the first paper research loop after Karina's Friday summary job. Chris wants Friday to be the validation time for this loop.\n\nRead the injected context from Karina's summary job if available, and also read /opt/data/agent-team-work-log/research-loop/weekly-summary-2026-06-25_to_2026-07-03.md and /opt/data/agent-team-work-log/research-loop/memory.md.\n\nEvaluate:\n- Evidence quality: are sources credible and sufficiently linked?\n- Coverage: AI papers vs UX/branding/design-management papers; CHI/RISS/DBPIA/AI Times/designDB balance.\n- Noise/risk: duplicates, low-quality promotional content, paywall/metadata-only uncertainty, overfitting to One UI.\n- Usefulness for Chris: does it help strategic design thinking without becoming too technical?\n- Recommendation: continue weekly, adjust, or stop; include 3 concrete improvements for the next loop.\n- If continuing, recommend how Son and Faker could receive work next week without wasting tokens.\n\nWrite a compact evaluation file to /opt/data/agent-team-work-log/research-loop/muyeol-evaluation-2026-06-25_to_2026-07-03.md and send the Slack-facing evaluation in Korean. Do not expose raw logs or secrets.",
+      "skills": [
+        "scheduled-personal-briefings"
+      ],
+      "skill": "scheduled-personal-briefings",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": [
+        "e26a0a26b85b"
+      ],
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-07-03T00:40:00+00:00",
+        "display": "once at 2026-07-03 00:40"
+      },
+      "schedule_display": "once at 2026-07-03 00:40",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-24T14:25:07.087567+00:00",
+      "next_run_at": "2026-07-03T00:40:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "slack",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8935285603",
+        "chat_name": "Chris Park",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "file",
+        "terminal"
+      ],
+      "workdir": null,
+      "profile": "muyeol"
+    },
+    {
+      "id": "9b9f48a0e49e",
+      "name": "KST 2026-07-03 ontology designer growth plan final review with Son and Muyeol",
+      "prompt": "You are Karina, Chris Park's main orchestrator/CDO. This one-shot job runs on Friday 2026-07-03 KST to produce the final plan for Chris's post-Friday ontology-designer growth work.\n\nContext to preserve:\n- Chris's goal after next Friday: grow Chris into an ontology designer.\n- Chris defines this as conceptually growing around: concepts for understanding the world, concepts for understanding work, and concepts for communicating with stakeholders.\n- He does NOT primarily want to directly make design artifacts; he wants conceptual growth as an ontology designer.\n- The first 4-week topic direction should connect current work with long-term One UI AI direction.\n- Existing Karina/Yuna/Go Youn-jung briefings should continue; this growth loop must use only remaining token/attention budget and stay compact.\n- Desired 4-week artifact: model diagram.\n- Additional layer: Chris is deeply interested in design education for junior designers, schools, and corporate employees, gives many lectures, and wants his own ontology-designer growth story to become educational storytelling later.\n- Weekly output should stay small: one model-diagram fragment + one education-story card at most.\n\nRequired process:\n1. Read recent Karina/Son work logs if available, especially /opt/data/agent-team-work-log/karina/daily/2026-06-25.md and /opt/data/agent-team-work-log/son/daily/2026-06-25.md.\n2. Ask Son via terminal command `hermes --profile son chat -q ...` to produce a final concise 4-week plan. Include Chris's context above. Ask Son for: goal statement, 4-week schedule, weekly outputs, token-saving operating rhythm, and success criteria.\n3. Ask Muyeol via terminal command `hermes --profile muyeol chat -q ...` to review Son's plan for scope creep, weak logic, privacy/security/reputation risk, overclaiming, and whether it is realistic under token constraints. Muyeol uses \uadf9\uc874\ub300 in his own report, but Karina's final synthesis to Chris may use warm banmal.\n4. Synthesize Son + Muyeol into one final Korean DM to Chris. Keep it concise and warm. Include: final goal, 4-week plan, operating rhythm, final artifact, education-storytelling layer, Muyeol review result, and what starts after Friday.\n5. Update /opt/data/agent-team-work-log/karina/daily/2026-07-03.md with compact notes. Do not include raw logs or secrets.\n\nDo not use send_message; final response will be delivered automatically to Chris. If a terminal/profile call fails, report the blocker honestly and still provide the best possible plan based on available logs.",
+      "skills": [
+        "hermes-agent-team-operations",
+        "scheduled-personal-briefings"
+      ],
+      "skill": "hermes-agent-team-operations",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-07-03T09:30:00+09:00",
+        "display": "once at 2026-07-03 09:30"
+      },
+      "schedule_display": "once at 2026-07-03 09:30",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-25T07:37:37.919414+00:00",
+      "next_run_at": "2026-07-03T09:30:00+09:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8935285603",
+        "chat_name": "Chris Park",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file",
+        "session_search"
+      ],
+      "workdir": null,
+      "profile": null
+    }
+  ],
+  "updated_at": "2026-06-28T14:55:18.355695+00:00"
+}

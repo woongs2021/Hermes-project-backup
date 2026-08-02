@@ -1,0 +1,14 @@
+{
+  "removed_files_due_to_secret_scan": [
+    "agent-team-work-log/karina/daily/2026-06-23.md",
+    "agent-team-work-log/karina/daily/2026-07-06.md",
+    "agent-team-work-log/karina/daily/2026-07-30.md",
+    "agent-team-work-log/paper-candidates/yuna-2026-W30.md",
+    "skills/autonomous-ai-agents/hermes-agent/references/native-mcp.md",
+    "skills/autonomous-ai-agents/hermes-agent/references/webhooks.md",
+    "skills/devops/hermes-agent-team-operations/SKILL.md",
+    "skills/github/github-workflows/references/hermes-data-export-security.md",
+    "skills/research/research-intelligence-workflows/SKILL.md",
+    "skills/research/research-intelligence-workflows/references/research-paper-writing/citation-workflow.md"
+  ]
+}
