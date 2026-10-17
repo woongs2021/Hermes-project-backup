@@ -1,9 +1,0 @@
-{
-  "last_report_path": "/opt/data/logs/curator/20260726-161156",
-  "last_run_at": "2026-07-26T16:11:56.382116+00:00",
-  "last_run_duration_seconds": 26.184579,
-  "last_run_summary": "auto: no changes; llm: Processed the full candidate list of 2 active, unpinned skills.\n\nSummary:\n- `hermes-agent` is already a broad class-level umbrella for Hermes configuration, operation, troubleshooting, development, gateway, cron, curator, kanban, skills, pr…",
-  "last_run_summary_shown_at": null,
-  "paused": false,
-  "run_count": 6
-}

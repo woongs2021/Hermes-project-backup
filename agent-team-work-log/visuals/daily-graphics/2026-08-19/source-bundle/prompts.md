@@ -1,0 +1,16 @@
+# 2026-08-19 Go Youn-jung daily metaphor prompts
+
+## Context
+- KST date: 2026-08-19
+- Recent finals checked: 2026-08-17 used warm parchment/olive/ochre and lavender-steel/clay; avoid blue/mint/violet overuse and avoid #EEDCD6.
+- Required style: smooth premium matte 3D product-icon object, single solid bright woongdesignv2-compatible background, no text/logo/UI.
+
+## Still 01 — Keystone of Consent
+Prompt: A single smooth premium matte 3D product-icon object: an asymmetric keystone wedge gently tilted upright, representing human consent as the load-bearing piece before AI action. One continuous sculptural form, broad rounded bevels, visible side depth for turntable rotation, object color deep terracotta clay #B86A42 with subtle warm ivory highlight #FFF6E5, on one solid bright parchment-yellow background #F3C75C. Studio product lighting, soft contact shadow, centered composition, generous negative space, square 1:1, high polish, calm Samsung One UI warmth. No text, no logo, no UI, no people. Avoid: #EEDCD6, gradient, two-tone background patches, particles, granules, speckles, dots, pebble/path clusters, repeated beads/seeds/blobs, connectors, bridges, segmented forms, ribbed forms, bug-like silhouettes, three-pill/capsule groups, eye, lens, central dark dot, animal, mushroom, alien silhouette, pores, cracks, torn fabric.
+
+Turntable prompt: Keep the still image object exactly centered and intact. Create a smooth 5-second product turntable: object rotates slowly around its vertical y-axis about 35–45 degrees, revealing asymmetric side depth and bevels. Camera locked, square composition, solid background unchanged, soft contact shadow stable, no zoom, no morphing, no deformation, no added objects, no text, no logo, no particles, no audio.
+
+## Still 02 — Careful Boundary Vessel
+Prompt: A single smooth premium matte 3D product-icon object: a seamless protective vessel form like a shallow open cradle with one raised rim and one lower rim, representing AI holding user boundaries safely without crossing them. One continuous unsegmented object, rounded thick edges, asymmetric side profile, visible inner surface depth for turntable rotation, object color deep olive #566B32 with warm cream inner face #F8E6B0, on one solid bright apricot-clay background #E89A61. Studio product lighting, soft contact shadow, centered composition, generous negative space, square 1:1, refined editorial product icon, calm and trustworthy. No text, no logo, no UI, no people. Avoid: #EEDCD6, gradient, two-tone background patches, particles, granules, speckles, dots, pebble/path clusters, repeated beads/seeds/blobs, connectors, bridges, segmented forms, ribbed forms, bug-like silhouettes, three-pill/capsule groups, eye, lens, central dark dot, animal, mushroom, alien silhouette, pores, cracks, torn fabric, quilting seams.
+
+Turntable prompt: Keep the still image object exactly centered and intact. Create a smooth 5-second product turntable: object rotates slowly around its vertical y-axis about 35–45 degrees, revealing the raised rim, lower rim, and continuous inner surface. Camera locked, square composition, solid background unchanged, soft contact shadow stable, no zoom, no morphing, no deformation, no added objects, no text, no logo, no particles, no audio.

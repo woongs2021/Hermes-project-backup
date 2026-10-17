@@ -1,10 +1,12 @@
 {
   "path": "/opt/data/github-backup-sets/repos/chris-karina-agent-system",
   "counts": {
-    "agent_team_work_log_md": 269,
-    "skills": 176,
-    "hermes_plans": 2
+    "agent_team_work_log_md": 598,
+    "skills": 322,
+    "hermes_plans": 2,
+    "karina_soul": 1,
+    "specialist_souls": 5
   },
   "secret_scan_findings": 0,
-  "pruned_files_due_to_secret_scan": 10
+  "pruned_files_due_to_secret_scan": 20
 }

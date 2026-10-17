@@ -1,7 +1,7 @@
 ---
 title: Weekly selected 3+3 papers log
 created: 2026-07-03
-updated: 2026-07-10
+updated: 2026-10-16
 owner: karina
 type: weekly-selected-papers-log
 purpose: Monthly research-growth synthesis source for Chris Park
@@ -282,3 +282,167 @@ purpose: Monthly research-growth synthesis source for Chris Park
 - 사용자 보호와 deceptive pattern 저항은 브랜드 신뢰의 핵심 안전 요구사항이다.
 - LLM-simulated user는 빠른 실험 도구일 수 있지만 인간 연구를 대체하지 않는다.
 - 조직이 agentic UX를 확장할 때는 persona, pattern, governance, responsibility boundary를 함께 관리해야 한다.
+
+---
+
+## 2026-W33 — selected on 2026-08-14 KST
+
+### Selection rationale
+이번 주 best-2는 Chris가 AI와 UX/design 리더십을 “더 좋은 답을 내는 도구”가 아니라 **전략적 성찰을 촉발하는 AI 파트너**와 **개인화·추천 경험을 조율하는 디자인 프레임**으로 읽도록 선정한 lane-balanced 세트다. 두 항목은 서로 같은 논문/variant가 아니며, 하나는 UX 전략의 판단 문화, 하나는 대화형 추천의 경험 목표를 다뤄 Chris의 성장 질문을 전략·조직 리뷰·사용자 선택권 쪽으로 넓힌다.
+
+### Selected best 2
+
+#### 1) AI as a reflection partner in UX strategy
+- Lane/source signal: Yuna / AI×UX strategy, i-com / De Gruyter.
+- Source/link/ID: DOI 10.1515/icom-2026-0049 — https://doi.org/10.1515/icom-2026-0049 / https://www.degruyterbrill.com/document/doi/10.1515/icom-2026-0049/html
+- Chris growth relevance: AI를 산출물 자동화보다 전략 가정, 판단 기준, 리뷰 질문을 드러내는 성찰 파트너로 보게 해 디자인 리더십과 팀 학습 문화의 언어를 제공한다.
+- Muyeol status/caution: WATCH. DOI와 출판사 HTML landing은 확인됐지만, 현재 검증은 초록·메타데이터 중심이므로 사례 깊이, 방법론, 효과 검증을 실증 인과처럼 말하지 않는다.
+- Korean-source coverage: Non-Korean.
+- De-dup notes: W33 selected best-2 내 동일 제목·DOI·URL 중복 없음. 이번 주 `reflection`, `intent`, `trust calibration` 클러스터의 최상위 전략 후보로 weighting.
+- Monthly synthesis hooks: AI as reflection partner; strategic UX review culture; question-led AI tools for design leadership.
+
+#### 2) Recommendation-as-Experience: A Framework for Context-Sensitive Adaptation in Conversational Recommender Systems
+- Lane/source signal: Go Youn-jung / UX-design lane, ACM Transactions on Recommender Systems.
+- Source/link/ID: DOI 10.1145/3838803 — https://doi.org/10.1145/3838803
+- Chris growth relevance: 대화형 추천을 정확도 최적화만이 아니라 설명, 탐색, 자율성, 맥락 민감성 같은 경험 목표로 조율해야 한다는 프레임을 제공해 개인화 UX와 브랜드 신뢰 판단을 넓힌다.
+- Muyeol status/caution: GO. Crossref DOI 메타데이터와 ACM 저널 출처는 확인됐지만 ACM 페이지 직접 접근은 403이었으므로 세부 검증 범위·실험 설계는 전문 확인 전까지 제한한다. “정확도보다 경험”을 KPI 폐기로 오해하지 않도록 균형 있게 다룬다.
+- Korean-source coverage: Non-Korean.
+- De-dup notes: W33 selected best-2 내 동일 제목·DOI·URL 중복 없음. 이번 주 UX/design lane에서 source credibility와 Chris-growth relevance가 가장 안정적인 후보로 판단.
+- Monthly synthesis hooks: recommendation as experience; personalization governance; autonomy/explanation/exploration as UX quality goals.
+
+### Coverage / de-duplication notes
+- 최종 visible items: exactly 2 total. Yuna lane 1, Go Youn-jung lane 1로 2026-W33 운영 지시의 lane balance를 충족한다.
+- Korean-source coverage: 최종 2에는 한국 소스가 포함되지 않았다. KoreaScience/Korean design-tool/BX 후보들은 실무 맥락 보강에는 유용했지만 이번 주 best-2 품질·신규성·성장 질문의 응집도에서는 두 글로벌 저널 후보보다 낮게 평가했다.
+- Visible de-duplication: 제목, DOI, arXiv/ACM/De Gruyter URL, obvious same-paper variants 기준으로 selected 2 사이 중복 없음. 반복/근접 주제는 confidence weighting으로만 반영했다.
+
+### Monthly synthesis hooks
+- AI should sometimes ask better strategic questions rather than produce faster answers.
+- Conversational personalization should be evaluated by autonomy, explanation, exploration, and trust calibration as well as accuracy.
+- 2026-W33 Korean-source gap: local sources were present but not forced into final selection because source strength and weekly coherence were weaker.
+
+### Karina final delivery note
+- 2026-08-14 KST 최종 전달에서 Muyeol의 best-2 선정을 유지한다. 운영 변경에 맞춰 사용자-facing 보고서는 “주간 베스트 논문 2”로 정리하고, Son 성장 질문/답변 신호는 데이터가 작다는 전제를 붙여 짧게만 반영한다.
+
+---
+
+## 2026-W37 — weekly 1-pick selected on 2026-09-11 KST
+
+### Selection rationale
+이번 주 1픽은 Chris가 AI/UX 리서치를 “더 빠른 산출물 제작”이 아니라 **디자이너 개입, 자동화 과의존 방지, 평가·검증 거버넌스**의 리더십 문제로 보게 하는 데 가장 강한 항목으로 선정했다. Yuna/Go Youn-jung 후보군은 에이전트 조율, 디자인 교육, UX 라이팅, 지속가능 패키징까지 넓었지만, `Designing With AI`는 체계적 문헌고찰·저널 논문·DOI/Crossref 확인·OA license metadata가 함께 확인되어 1픽용 출처 안정성과 주간 coherence가 가장 높다.
+
+### Selected weekly 1-pick
+
+#### AI와 함께 디자인하기: AI 지원 UX 디자인 도구의 사용·개발·인식에 관한 체계적 문헌고찰 / Designing With AI: A Systematic Literature Review on the Use, Development, and Perception of AI‐Enabled UX Design Tools
+- Lane/source signal: Go Youn-jung / Global / UX·HCI systematic review.
+- Source/link/ID: Advances in Human-Computer Interaction, Wiley, 2025-01; DOI `10.1155/ahci/3869207` — https://doi.org/10.1155/ahci/3869207
+- Source verification: Crossref metadata 재확인(2026-09-11 KST); journal-article, publisher Wiley, published-online 2025-04-18, CC BY 4.0 license metadata. DOI 직접 접속은 403이었으므로 웹앱에는 DOI/Crossref 기반 확인으로 표기 권장.
+- Chris growth relevance: AX 시대 UX 리더십을 AI 툴 채택 속도가 아니라 창의성 보존, 디자이너 판단권, human-in-the-loop 검증, 자동화 리스크 관리의 운영 언어로 보게 한다.
+- Muyeol status/caution: GO. 단, 83개 포함 연구의 품질·범위 편향, 디자인 단계별 효과 차이, 특정 조직/산업으로의 전이는 과장하지 않는다.
+- Korean-source coverage: Non-Korean. 이번 주에는 강한 한국 후보가 있었으나 최종 1픽으로 억지 포함하지 않음. 한국/local 보완 후보로는 KOPA-Bench, UX writing voice/tone, 공공디자인 AI prompt 교육이 WATCH/GO 보조 신호다.
+- De-dup notes: `weekly-selected-papers.md` 내 동일 제목/DOI 기존 selected 기록 없음. 2026-09-08~09-11 JSONL 후보 중 exact duplicate 없음.
+- Lane/source signal: W37 후보군의 “AI는 산출물 자동화보다 협업·평가·거버넌스 문제” 클러스터를 대표하는 최상위 항목.
+- Webapp hook: `papers` 또는 `Research Cards` tab, card/status `AX UX tools` / `GO`, tags `AI-assisted UX`, `design governance`, `automation risk`, `human-in-the-loop`. 피해야 할 표현: “AI가 UX 디자인을 대체한다”, “모든 UX 조직의 성과 향상이 입증됐다”.
+
+### Monthly synthesis hooks
+- AI-assisted UX tools as governance, not simple productivity tooling.
+- Designer involvement and validation loops as AX leadership capability.
+- Automation risk, creativity preservation, and human-in-the-loop quality standards.
+
+---
+
+## 2026-W38 — weekly 1-pick selected on 2026-09-18 KST
+
+### Selection rationale
+이번 주 1픽은 Chris가 에이전트형 AI를 “더 많이 자동 처리하는 기능”이 아니라 **계획을 먼저 보여주고, 사용자가 개입·확인하며, 위험도에 따라 실행권을 조절하는 신뢰 UX**로 보게 하는 데 가장 강한 항목으로 선정했다. W38 후보군에는 접근성 AI, 다크패턴 알림 UI, 패키징 행동설계, 디자인경영 자료도 있었지만, `Plan-Then-Execute`는 CHI 2025 정식 DOI와 메타데이터가 확인되고 Hermes/OBD 및 미래 One UI의 AX 상호작용 언어로 바로 전환하기 가장 좋다.
+
+### Selected weekly 1-pick
+
+#### 계획 후 실행: LLM 에이전트를 일상 비서로 사용할 때 사용자 신뢰와 팀 성과에 관한 실증 연구 / Plan-Then-Execute: An Empirical Study of User Trust and Team Performance When Using LLM Agents As A Daily Assistant
+- Lane/source signal: Yuna / Global / CHI 2025 agent UX empirical study.
+- Source/link/ID: Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems / ACM CHI 2025 / 2025-04-26; DOI `10.1145/3706598.3713218` — https://doi.org/10.1145/3706598.3713218
+- Source verification: 2026-09-18 research-loop 기록 기준 Crossref/OpenAlex metadata와 abstract 확인. ACM landing은 cron 환경에서 403이므로 전문 세부 수치 인용 전 원문 확인 필요.
+- Chris relevance: Hermes/OBD의 에이전트 UX를 완전 자동화보다 계획 확인, 단계 실행, 사용자 개입권, 신뢰 보정의 인터랙션 언어로 설계해야 한다는 기준을 제공한다.
+- Muyeol status/caution: GO. 단, plan-then-execute를 모든 업무의 정답 패턴으로 과장하지 말고 과업 위험도, 사용자 숙련도, 프라이버시 맥락별 통제 수준 차이를 표시한다.
+- Korean-source coverage: Non-Korean. 이번 주 한국/local 보조 신호로는 `AI 추천 다크패턴 감지 및 인지적 알림 UI`, `AI 에이전트 위임 구매 결정 수용 조건`, `대화형 AI 구매의도`가 있었으나 최종 1픽에는 억지 포함하지 않음.
+- De-dup notes: `weekly-selected-papers.md` 내 동일 제목/DOI 기존 selected 기록 없음. `all-research-items.jsonl`에서는 2026-09-18 Yuna 후보 1회 확인.
+- Webapp hook: `Agents` 또는 `Research Cards` tab, card/status `trust-control` / `GO`, tags `plan-then-execute`, `LLM agents`, `user trust`, `CHI2025`, `human-in-the-loop`. 피해야 할 표현: “완전 자동화가 신뢰를 높인다”, “모든 팀/업무에서 성과 향상이 입증됐다”, 전문 미확인 세부 통계 단정.
+
+### Monthly synthesis hooks
+- Agent UX trust should be designed through plan preview, staged execution, and user intervention rights.
+- Human-in-the-loop is a product interaction pattern, not only a governance slogan.
+- AX/One UI reliability language: predictability, controllability, recoverability, and risk-calibrated delegation.
+
+---
+
+## 2026-W39 — weekly 1-pick selected on 2026-09-25 KST
+
+### Selection rationale
+이번 주 1픽은 Chris가 “인간 중심 AI”를 친절한 말투나 따뜻한 화면 분위기가 아니라 **사용자 통제, 사회적 영향, 평가 기준, 설계·거버넌스 책임**으로 다시 정의하는 데 가장 강한 항목으로 선정했다. W39 후보군에는 생성형 UI, 디자인 실무자의 AI 활용, 멀티모달 신뢰 단서, 패키징·브랜드 연구도 있었지만, `What is Human-Centered about Human-Centered AI?`는 CHI/ACM 출처와 OA full-text 신호가 확인되고 이번 주 반복 테마인 “AI 도입에는 인간 판단·검증·통제 구조가 필요하다”를 가장 넓고 안정적으로 묶는다.
+
+### Selected weekly 1-pick
+
+#### 인간 중심 AI에서 ‘인간 중심’이란 무엇인가? 연구 지형도 / What is Human-Centered about Human-Centered AI? A Map of the Research Landscape
+- Lane/source signal: Go Youn-jung / Global / CHI HCAI mapping review.
+- Source/link/ID: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems / ACM CHI 2023 / 2023-04-19; DOI `10.1145/3544548.3580959` — https://doi.org/10.1145/3544548.3580959
+- Source verification: 2026-09-21 Go Youn-jung research-loop 및 JSONL 기준 OpenAlex OA gold/PDF 신호, Crossref/ACM DOI 메타데이터, 초록의 연구범위·한계 확인.
+- Chris relevance: Hermes/AX와 미래 One UI의 “따뜻한 AI”를 기능 감성에 그치지 않고 사용자 통제, 사회적 영향, 평가·설계·거버넌스 기준을 포함한 디자인 리더십 프레임으로 확장한다.
+- Muyeol status/caution: GO. 단, 개념 지형도/범위 정리 성격이므로 특정 제품 효과, 성과 인과, One UI 적용 성공을 단정하지 않는다. 세부 분류표·인용 수치는 카드 확장 전 원문 대조가 필요하다.
+- Korean-source coverage: Non-Korean. 이번 주 한국/local 보조 신호로는 `디자인 실무자의 생성형 AI 활용 현황과 인식 분석`, `AI 멀티모달 환경의 상호보완적 피드백 구조`, `생성형 AI 지원 맥락에서 지각된 창의 행동`이 있었으나 최종 1픽에는 억지 포함하지 않음.
+- De-dup notes: `weekly-selected-papers.md` 내 동일 제목/DOI 기존 selected 기록 없음. JSONL line 297 기준 duplicate key `doi:10.1145/3544548.3580959`가 local 신규로 기록됨.
+- Lane/source signal: W39 후보군의 “human-centered AI as design/evaluation/governance, not UI tone” 클러스터를 대표하는 최상위 항목.
+- Webapp hook: `Research Cards` 또는 `Agents/AX` tab, card/status `HCAI governance` / `GO`, tags `HCAI`, `human-centered AI`, `AX governance`, `trust UX`, `One UI language`. 피해야 할 표현: “인간 중심 AI의 정답 프레임”, “특정 UX 성과가 입증됐다”, “따뜻한 AI=감성 톤”.
+
+### Monthly synthesis hooks
+- Human-centered AI needs explicit criteria for design, evaluation, and governance.
+- Warm AX/One UI language should include user control, social impact, accountability, and trust calibration.
+- AI-assisted design and agent workflows require human judgment/verification loops rather than automation-only narratives.
+
+---
+
+## 2026-W41 — weekly 1-pick selected on 2026-10-12 KST
+
+### Selection rationale
+이번 주 1픽은 Chris가 AI/AX 시대의 디자인 리더십을 “새 도구를 얼마나 빨리 쓰는가”가 아니라 **디자이너가 무엇을 이해하고, 무엇을 평가하며, 어떤 윤리·독창성·디자인 가치 판단을 책임져야 하는가**로 보게 하는 데 가장 강한 항목으로 선정했다. W41 후보군에는 HAI 가이드라인, 생성 UI 창의성 벤치마크, 바이브 코딩, 지속가능 패키징, 한국 디자인경영 후보가 있었지만, 이 논문은 Springer 저널·DOI·OA full-text 신호와 EFA/CFA 표본 수치가 확인되어 출처 안정성과 웹앱 1픽 접근성이 가장 균형적이다.
+
+### Selected weekly 1-pick
+
+#### 디자인 교육의 AI 리터러시 측정: 디자인 학생용 AI 리터러시 척도 개발과 검증 / Measuring AI literacy in design education: development and validation of the artificial intelligence literacy scale for design students
+- Lane/source signal: Yuna / Global / design education·AI literacy measurement.
+- Source/link/ID: International Journal of Technology and Design Education, Springer Nature, 2026-10-05; DOI `10.1007/s10798-026-10128-0` — https://doi.org/10.1007/s10798-026-10128-0
+- Source verification: 2026-10-07 Yuna research-loop 및 `all-research-items.jsonl` 기준 Springer DOI, OpenAlex OA PDF 신호, 초록·방법 수치(EFA N=294, CFA N=325) 확인.
+- Chris relevance: AX/OBD 리더십에서 디자이너의 AI 역량을 프롬프트 숙련만이 아니라 AI 개념/기술, 도구 숙련, 윤리·독창성, 디자인 가치 인식, 출력 평가까지 포함한 교육·평가 체계로 다루게 한다.
+- Muyeol status/caution: GO. 단, 디자인 학생 대상 척도 개발 연구이므로 이를 곧바로 채용·성과 KPI나 모든 실무 디자이너 역량 모델로 일반화하지 않는다. 문항·요인 구조는 카드 확장 전 원문 표와 로컬 맥락 대조가 필요하다.
+- Korean-source coverage: Non-Korean. 이번 주 한국/local 보조 신호로는 `린 UX를 위한 바이브 코딩`, `삼성 브랜드 중심 카노 모델 기반 스마트폰 인터페이스 디자인`, `한국 기업의 디자인경영 프레임워크`가 있었으나, 전문 접근성·신규성·주간 통합력 기준에서 최종 1픽에는 억지 포함하지 않았다.
+- De-dup notes: `weekly-selected-papers.md` 내 동일 제목/DOI 기존 selected 기록 없음. `all-research-items.jsonl`의 duplicate key `doi:10.1007/s10798-026-10128-0`는 local 신규로 기록됨.
+- Lane/source signal: W41 후보군의 “AI 도입은 생산성 도구 채택이 아니라 디자이너 판단력·평가력·윤리성을 재정의하는 교육/리더십 문제” 클러스터를 대표하는 최상위 항목.
+- Webapp hook: `Research Cards` 또는 `Agents/AX` tab, card/status `AI literacy` / `GO`, tags `AI literacy`, `design education`, `AX leadership`, `evaluation`, `ethics`. 피해야 할 표현: “프롬프트 실력만 측정하면 된다”, “실무 성과가 입증됐다”, “모든 디자이너 공통 KPI로 즉시 사용 가능”.
+
+### Monthly synthesis hooks
+- AI-era design leadership needs measurable judgment, ethics, originality, and output-evaluation capabilities.
+- AI literacy should be treated as a capability model for learning and review, not a simplistic productivity score.
+- Korean-source gap this week was accepted because the strongest local candidates were either closed/abstract-only or narrower than the weekly theme.
+
+---
+
+## 2026-W42 — weekly 1-pick selected on 2026-10-16 KST
+
+### Selection rationale
+이번 주 1픽은 Chris가 생성형 UI를 “그럴듯한 화면과 설명을 빠르게 만드는 도구”가 아니라 **설계 근거·접근성·레이아웃·기능 구현이 실제로 일치하는지 검증해야 하는 제품 품질 체계**로 보게 하는 데 가장 강한 항목이다. W42 후보에는 설명 UI, AI 음성 경고, AI 워터마크, 서비스디자인, 패키지 신뢰 신호가 있었으나, `Design Theater`는 이번 주의 핵심 위험인 설명-구현 불일치를 가장 직접적으로 드러내며 AX/OBD와 미래 One UI의 릴리스 QA 언어로 전환하기 쉽다.
+
+### Selected weekly 1-pick
+
+#### 디자인 시어터: 생성형 UI 도구의 사용자향 디자인 논리와 실제 구현 간극 평가 / Design Theater: Evaluating the Gap Between User-Facing Design Reasoning and Implementation in Generative UI Tools
+- Lane/source signal: Yuna / Global / generative UI·UX QA·implementation gap.
+- Source/link/ID: Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society, AAAI, 2026-10-11; DOI `10.1609/aies.v9i2.43227` — https://doi.org/10.1609/aies.v9i2.43227
+- Source verification: 2026-10-16 KST Crossref에서 journal-article, AAAI 발행, AIES 수록, 2026-10-11 발행을 재확인했다. DOI는 AAAI 공개 논문 랜딩으로 HTTP 200 해소됐고, 후보 기록의 OA PDF 신호가 있다.
+- Chris relevance: Hermes/OBD와 미래 One UI의 생성 UI에서 모델의 설명이나 데모 완성도가 아니라 접근성·레이아웃·기능 요구사항이 실제 구현과 일치하는지를 검증하는 design QA/릴리스 게이트 언어를 제공한다.
+- Muyeol status/caution: GO. 단, 보고된 불일치 비율은 해당 연구의 5개 도구·120개 인터페이스·벤치마크 과업 범위에서만 해석한다. 모든 생성 UI 또는 실제 제품 오류율로 일반화하지 않으며, 수치 인용 전 과업 정의·도구 버전을 원문에서 재대조한다.
+- Korean-source coverage: Non-Korean. 한국/local 보조 근거로 `LLM 기반 설명 가능한 음성 경고가 사용자 경험에 미치는 영향`(운전 상황 한정)과 `생성형 AI 이미지 식별을 위한 워터마크 유형별 사용자 경험 연구`(전문 접근 제한)가 있으나, 범용 생성 UI QA라는 주간 핵심에는 1픽보다 좁아 억지 포함하지 않았다.
+- De-dup notes: `weekly-selected-papers.md` 및 2026-W42 JSONL을 DOI·제목 기준으로 대조해 동일 논문의 기존 주간 1픽이 없음을 확인했다. 이번 주 반복된 전략디자인 후보와도 주제·DOI가 다르다.
+- Lane/source signal: W42의 “AI가 설명하는 설계 논리와 사용자가 실제로 받는 구현을 대조해야 한다” 클러스터를 대표하는 최상위 실증/QA 후보.
+- Webapp hook: `Research Cards` 또는 `Agents/AX` 탭, card/status `Generative UI QA` / `GO`, tags `generative UI`, `UX QA`, `implementation gap`, `design reasoning`, `accessibility`. 피해야 할 표현: “모든 AI UI가 결함 있다”, “벤치마크 수치가 제품 오류율이다”, “설명 가능성만으로 품질이 보장된다”.
+
+### Monthly synthesis hooks
+- Generative UI must be evaluated against rendered behavior and accessibility, not only persuasive design rationale.
+- AX release quality needs traceability from stated design intent to implemented requirements.
+- Explanation UX is trustworthy only when it supports user judgement and is matched by controllable, testable implementation.

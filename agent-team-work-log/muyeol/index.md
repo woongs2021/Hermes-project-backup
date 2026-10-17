@@ -3,6 +3,7 @@
 Daily work notes for muyeol. Create daily notes only on days with substantive work.
 
 ## Recent notes
+- [2026-08-14](daily/2026-08-14.md) — AI/AX job-shift 금요일 검증을 수행해 raw 입력은 존재하지만 Faker tab/graph/consolidated-index 누락과 graph node/edge 장기 미갱신 때문에 최종 **WATCH**를 권고했다; W33 루프 거버넌스는 **GO with targeted ADJUSTMENTS**로 판단하고 Son grounding, visual family quota/delivery check, Faker graph freshness, paper source-access 라벨을 Karina 인수인계로 남겼다. W33 논문 후보 20개를 검토해 best-2 방향을 정리했고, 금요일 논문/검증 보고의 Muyeol direct Slack+Telegram DM 소유권 전환·테스트 맥락을 기록했다.
 - [2026-07-31](daily/2026-07-31.md) — AI/AX 일자리 변화 루프 금요일 검증을 수행해 Yuna/Go Youn-jung/Son raw report, JSONL, graph node/edge, 일부 공개 출처 접근성을 확인하고 최종 **WATCH**를 권고했다; 2026-07-31 tab/graph 최신성 부족, `source_url` 공백, RSS/벤더/컨설팅 출처 과신 리스크를 기록했다. 추가로 W31 recurring loop governance review를 작성해 Son `ADJUST`, Faker `KEEP`, Go Youn-jung `KEEP_WITH_ADJUST`, paper/research `KEEP`, team logs `KEEP_WITH_HYGIENE`로 판단하고 Chris-specific grounding, 8월 scope/privacy/status gate, still-only/metaphor diversity, 운영 식별자 비노출을 Karina 인수인계로 남겼다.
 - [2026-07-30](daily/2026-07-30.md) — Son의 09:50 Hermes-growth/SNS pre-flight guardrail을 작성해 `빠른 합성 평가 → 실제 인간 검증 → 불확실성 표시 → 멈춤 기준`을 분리하는 평가 유효성 경계를 권고했다; 연구 결과를 제품 성능·시장 채택·NPS 개선·구독 전환 성과처럼 과장하거나 내부 로그/프로젝트명/플랫폼 ID/민감 이해관계자를 노출하지 않도록 경고했다.
 - [2026-07-29](daily/2026-07-29.md) — Son의 09:50 Hermes-growth/SNS pre-flight guardrail을 작성해 협업형/GUI 에이전트의 단계별 품질, `agentic UX` 거버넌스, AI 디자인의 공공성·책임을 공개 안전 질문으로 제한하도록 권고했다; 연구 후보를 업계 표준/제품 성과처럼 단정하지 말고 AI 캐릭터·조직 협업·공공성 맥락의 과잉 일반화, 내부 로그·식별자·검증되지 않은 성과 수치 노출을 피하도록 경고했다.

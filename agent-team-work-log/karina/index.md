@@ -3,6 +3,21 @@
 Daily work notes for karina. Create daily notes only on days with substantive work.
 
 ## Recent daily notes
+- [2026-08-19](daily/2026-08-19.md) — Go Youn-jung daily visual 전달 누락을 delivery packaging 문제로 진단해 검증된 산출물을 재전송하고 `MEDIA:/...` 첨부 포맷을 수정했으며, 23:45 finalizer는 pending manifest 부재로 skipped 상태만 기록함.
+- [2026-08-18](daily/2026-08-18.md) — Chris 요청으로 Yuna/Go Youn-jung 리서치를 1+1로, GoYJ 비주얼을 1/day로 축소하고 중복 default visual job을 pause했으며, Faker 실패 cron 재실행·Codex minimal 검증·업무/대화 wiki 업데이트·visual finalizer skip 상태를 기록함.
+- [2026-08-16](daily/2026-08-16.md) — 오늘 팀 작업 흐름을 업무/대화 wiki에 종합하고, GoYJ revised visual set이 이미 Faker final/current feed에 반영된 상태임을 확인해 finalizer를 중복 저장 없이 skipped 상태로 기록함.
+- [2026-08-15](daily/2026-08-15.md) — Hermes/Nous Research 출처 질의에 답하고, GoYJ 2026-08-15 final visual set의 Faker image-gallery final/current feed 상태를 검증했으며, Faker Research Board URL filter 개선·weekly approval gate 결과를 오늘 업무/대화 wiki와 Karina 작업 로그에 종합함.
+- [2026-08-14](daily/2026-08-14.md) — 2026-W33 금요일 논문/검증 보고를 Muyeol 직접 Slack+Telegram DM 소유로 전환·검증했고, Son AI/AX SNS 요약 포맷을 확정·반영했으며, GoYJ final visual set을 Faker image-gallery final/current feed에 저장·검증하고 오늘 업무/대화 wiki를 업데이트함.
+- [2026-08-13](daily/2026-08-13.md) — Go Youn-jung 데일리 비주얼 리포트 미전송 이슈를 점검해 MEDIA 첨부 누락 delivery packaging 문제를 확인·재전송했고, visual cron 전달 검증 기준을 보강했으며, 23:45 finalizer로 오늘 pending visual set을 Faker image-gallery final/current feed에 저장함.
+- [2026-08-12](daily/2026-08-12.md) — AI/AX 시장조사 흐름을 고용·디자인직군·비즈니스시장 관점으로 Chris-facing 종합하고, Go Youn-jung 2026-08-12 final visual set을 Faker image-gallery final/current feed에 저장·검증했으며, 오늘 업무/대화 wiki를 업데이트함.
+- [2026-08-11](daily/2026-08-11.md) — 2+2 리서치 브리핑을 Yuna/Go Youn-jung 전문 프로필 직접 Slack+Telegram DM 구조로 전환하고 default 중복 작업을 일시정지했으며, Son의 OBD/AX 개념도를 Go Youn-jung Kling+로컬 오버레이 PNG로 제작·검증하고 오늘 daily visual final set을 Faker image-gallery final/current feed에 저장·검증함.
+- [2026-08-10](daily/2026-08-10.md) — Go Youn-jung 비주얼 미전달 원인을 점검해 Higgsfield credits 0 블로커를 확인하고, Kling-only 2+2와 오브젝트 단독/단색 배경 기준으로 루프를 전환했으며, 오늘 final set을 Go Youn-jung bot 전달 및 Faker image-gallery final/current feed에 저장·검증함.
+- [2026-08-09](daily/2026-08-09.md) — Go Youn-jung visual DM 전송 누락을 점검·재전송하고 message ID 검증 규칙을 보강했으며, Codex 사용량 기반 Faker 코딩 scope 정책을 만들고 오늘 visual set을 Faker image-gallery final/current feed에 저장함.
+- [2026-08-08](daily/2026-08-08.md) — 크레딧 재연결 후 오늘자 에이전트 작업만 재실행·검증하고, Go Youn-jung daily graphics를 스틸 2장 + Kling 턴테이블 2개 Kling-first 루틴으로 전환했으며, 23:45 finalizer가 오늘 visual set을 Faker image-gallery final/current feed에 반영함.
+- [2026-08-05](daily/2026-08-05.md) — Telegram/Slack gateway 연동 불안정 복구, Go Youn-jung 2장 visual set의 Faker image-gallery final/current feed 저장·검증, daily 업무/대화 wiki 2026-08-05 업데이트를 기록함.
+- [2026-08-04](daily/2026-08-04.md) — Son 일일 OBD 질문을 객관식/선택형으로 전환하고 오늘자 질문을 재실행했으며, Faker HomeVisualHero/Home Visual Archive 구현·Go Youn-jung visual finalizer·W32 리서치 후보 축적을 팀 업무 wiki에 종합함.
+- [2026-08-03](daily/2026-08-03.md) — 월요일 Slack 주간 요약을 작성하고, Faker의 August Dashboard `Graph` 탭 구현·검증 결과를 조율/기록했으며, Go Youn-jung 2026-08-03 final visual 2개를 Faker image-gallery feed/current pointer에 반영하고 daily 업무 wiki를 업데이트함.
+- [2026-08-02](daily/2026-08-02.md) — Go Youn-jung daily image loop를 크레딧 절약형 2개/7일 다양성 기준으로 조정하고, GitHub backup/webapp repo 분리·Pages 배포·README 보강·Faker local coding/weekly approval cron 전환·AI/AX consolidation context 주입 문제 수정을 기록함.
 - [2026-08-01](daily/2026-08-01.md) — Hermes/OBD 웹앱 10-phase 개발 계획서를 작성하고 Harness / Loop / Graph Engineering 구조와 Chris 승인 전 코딩 금지 원칙을 정리했으며, GoYJ 2026-08-01 visual set을 Faker image-gallery final/current feed에 저장·검증함.
 - [2026-07-31](daily/2026-07-31.md) — 수/금 AI·AX loop 전달 정책을 specialist 직접 발송 + Slack/Chris DM 가시성 구조로 정리하고, W31 final best-3 리서치 보고를 Karina가 종합했으며, 8월 Faker 웹앱은 Chris 확인 전 coding 금지로 재확인하고 GoYJ 2026-07-31 visual set을 final/current feed에 저장함.
 - [2026-07-30](daily/2026-07-30.md) — Faker August Dashboard에 Chris 소개 `Intro` 탭과 OBD 포지셔닝을 반영하고, GitHub 백업을 홈페이지/Faker 데이터와 Karina agent-system 두 private repo-shaped export set으로 분기했으며, GoYJ 2026-07-30 partial final visual feed 상태를 검증함.

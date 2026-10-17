@@ -16,7 +16,21 @@ Use this reference when Chris asks whether the Hermes gateway/team is connected,
 1. Check `hermes gateway status`.
 2. Check `hermes status` for messaging platform configuration and managed tool status.
 3. Inspect recent gateway warnings/errors only enough to detect active failures; sanitize secrets and do not paste long logs.
-4. Summarize in Korean with bullets: Gateway, Telegram, Slack, specialist profiles, caveat/next action.
+4. If configuration/running status is not enough, send short smoke-test messages to Telegram home and the intended Slack target, and verify real success handles/message IDs before saying delivery works.
+5. Summarize in Korean with bullets: Gateway, Telegram, Slack, specialist profiles, caveat/next action.
+
+## Restart recovery pattern
+
+Use this when Chris reports Telegram/Slack disconnection and the default/Karina gateway appears stuck or down.
+
+1. Load the Hermes Agent skill first for current gateway commands, but do not edit protected bundled skills.
+2. Check `hermes gateway status`, `hermes status --all`, and `send_message(action='list')` to separate process state, platform configuration, and target-directory state.
+3. When running shell commands that may expose platform secrets, sanitize output before it enters the user-facing summary. Do not paste raw logs to Chris.
+4. Be careful with `hermes gateway restart` in a foreground tool call: it may time out after stopping the gateway, leaving default/Karina down. If this happens, immediately check status and recent logs.
+5. If no managed service is available, relaunch with tracked background `hermes gateway run` rather than shell-level `nohup`/`&`; then verify logs include Telegram connected, Slack connected, and `Gateway running with 2 platform(s)`.
+6. After reconnection, perform end-to-end smoke sends to both platforms when appropriate. Report “sent successfully” only from tool success/message ID or equivalent evidence.
+7. If the gateway is still manual rather than installed as a service, mention the stability caveat and recommend service installation only if failures recur.
+8. For substantive operational repair, update Karina's daily team work log with decisions, evidence, caveat, and no secrets.
 
 ## Skill inventory reporting
 

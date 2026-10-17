@@ -53,6 +53,43 @@ Chris는 매일/매주 쌓이는 3+3 리서치와 OBD 성장 루프를 단순 �
 - Chris 답변 요약
 - 질문별 출처 태그 및 이유
 
+### 2.3.1 OBD Growth Timeline 기록
+
+Chris가 2026-08-10에 명시적으로 요청한 추가 요구사항이다. Son이 정리한 “7월 대비 성장”, “OBD 프로그램 시작 시점”, “우선순위 판단 변화” 같은 회고성 기록도 Faker 개발 루프의 계획 범위에 포함한다.
+
+초기 seed event 후보:
+
+- 2026-07-03: 4주 OBD/3+3 성장 루프 기획 시작
+- 2026-07-04: Son의 첫 `오늘의 성장 질문` DM 발송
+- 2026-07-06: Son 프로필 Telegram cron 운영 안정화
+- 2026-07-10 전후: AI UX/브랜드 감각 판단에서 브랜드 관점·선택/포기·디자인경영 판단으로 선명화
+- 2026-07-31: AX 시장, 역할·검수·교육·가격 모델 재설계 관점으로 확장
+- 2026-08-08~2026-08-10: 디자인팀 내부 QA → 내부 검증 → 유관부서 협의 → 실행 문서 구조로 전환
+- 2026-08-10: Chris의 우선순위 판단 `C → D`를 “전체 비교 모드에서 핵심 진행 모드로 압축한 성장 신호”로 기록
+
+초기 schema 후보:
+
+```json
+{
+  "date_kst": "YYYY-MM-DD",
+  "event_type": "program_start|question_sent|answer_signal|son_interpretation|priority_shift|monthly_synthesis",
+  "title": "짧은 성장 이벤트 제목",
+  "summary": "Chris의 판단 변화 또는 루프 변화 요약",
+  "source_paths": ["관련 Son/Faker/Karina/Muyeol 로그 또는 source-flow 경로"],
+  "obd_themes": ["AI UX judgment", "brand asset", "design management", "organizational decision quality"],
+  "growth_shift": "감각 → 기준 → 우선순위 → 조직 언어 → 운영체계 중 해당 변화",
+  "privacy_level": "public_safe_summary|private_summary|raw_private_excluded",
+  "dashboard_candidate": true
+}
+```
+
+대시보드 표현 원칙:
+
+- raw Telegram/Slack 대화는 직접 노출하지 않는다.
+- UI에는 Son/Karina가 요약한 public-safe 성장 이벤트만 사용한다.
+- “얼마나 성장했는가”를 점수화하기보다, 판단 방식이 어떻게 바뀌었는지 timeline과 theme shift로 보여준다.
+- `C → D` 같은 짧은 선택도 맥락이 있으면 중요한 OBD growth signal로 보존한다.
+
 ### 2.4 Son 질문 출처 흐름 로그
 
 - 스키마:
@@ -111,6 +148,8 @@ Markdown wiki로 먼저 구축한다.
   - paper/item 별 요약 페이지
 - `questions/`
   - Son daily question pages
+- `growth-events/`
+  - OBD 프로그램 시작, 7월 대비 성장 회고, 우선순위 판단 변화 같은 growth timeline event pages
 - `weeks/`
   - weekly synthesis pages
 - `months/`
@@ -132,6 +171,7 @@ Markdown wiki로 먼저 구축한다.
   - question-source graph
   - OBD theme index
   - Chris answer theme extraction
+  - OBD growth event timeline
 
 ### 4.3 대시보드 Layer
 
@@ -139,6 +179,7 @@ Markdown wiki로 먼저 구축한다.
 
 1. **Growth Timeline**
    - 날짜별 research → question → answer → synthesis 흐름
+   - 7월 대비 성장 변화, 시작 시점, 우선순위 판단 변화 같은 OBD growth event를 카드로 표시
 2. **Question Source Map**
    - Son 질문이 어떤 source tag에서 나왔는지 비율/흐름
 3. **OBD Theme Graph**
@@ -201,6 +242,8 @@ Faker는 각 개발 단계가 시작/진행/완료될 때 히스토리를 남긴
 - 3+3 후보 파일 구조 확인
 - weekly/monthly output 위치 확인
 - Son source log JSONL 누적 상태 확인
+- Son daily logs에서 OBD Growth Timeline seed event 후보 확인
+- 2026-07-03/07-04/07-06 시작 기준과 2026-08-10 성장 회고 기록 확인
 - 누락 필드 확인
 - source URL/DOI/arXiv 보존 여부 확인
 
@@ -209,6 +252,7 @@ Faker는 각 개발 단계가 시작/진행/완료될 때 히스토리를 남긴
 - data inventory markdown
 - source path map
 - missing-field checklist
+- OBD Growth Timeline seed event inventory
 
 ### Phase 2 — LLM Wiki 스키마 설계
 
@@ -219,6 +263,7 @@ Faker는 각 개발 단계가 시작/진행/완료될 때 히스토리를 남긴
 - paper item schema
 - question source schema
 - Chris answer theme schema
+- OBD growth event schema
 - OBD theme taxonomy
 - wikilink 규칙
 - duplicate paper handling 규칙
@@ -239,6 +284,7 @@ Faker는 각 개발 단계가 시작/진행/완료될 때 히스토리를 남긴
 - JSONL/Markdown parser
 - paper item normalization
 - question-source log ingestion
+- OBD growth event ingestion
 - weekly/monthly report linking
 - wikilink generation
 
@@ -325,6 +371,14 @@ Daily paper candidates
 - organizational decision quality
 - AI UX judgment
 
+추가로 2026-08-10 Chris 요청에 따라, 질문/답변 단위뿐 아니라 Son이 해석한 성장 변화도 별도 event로 묶는다.
+
+- program start / 운영 시작점
+- judgment shift / 판단 방식 변화
+- priority shift / 우선순위 압축
+- business translation / 디자인 감각의 비즈니스 언어화
+- organization translation / 디자인 판단의 협업·QA·실행 구조화
+
 ### 6.4 대시보드 Card 예시
 
 ```text
@@ -371,12 +425,15 @@ Chris에게 먼저 확인할 것:
 3. Son 질문/Chris 답변은 어느 수준까지 시각화해도 괜찮을까?
 4. 3+3 best-3 중심으로 볼까, daily 후보s까지 모두 탐색 가능하게 할까?
 5. 디자인 톤은 research OS에 가깝게 갈까, warm growth companion 대시보드에 가깝게 갈까?
+6. 2026-07-03/07-04/07-06 중 어떤 날짜를 OBD Growth Timeline의 공식 시작점으로 표시할까?
+7. `C → D` 같은 짧은 선택과 Son의 해석을 timeline card로 어느 정도까지 보여줄까?
 
 ## 10. Karina 인수인계 메모
 
 - 이 문서는 Faker가 8월 이후 3+3/OBD LLM wiki와 대시보드 개발을 시작할 때의 계획표다.
-- 가장 최근에 추가된 요구는 **Son 질문 출처 흐름 로그를 대시보드-ready data로 남기는 것**이다.
+- 최근 추가된 요구는 **Son 질문 출처 흐름 로그를 대시보드-ready data로 남기는 것**과 **7월 대비 성장·프로그램 시작일·우선순위 변화 같은 OBD Growth Timeline event를 계획 범위에 포함하는 것**이다.
 - machine-readable 질문 출처 로그는 `/opt/data/agent-team-work-log/growth-question-sources/son-question-source-log.jsonl`를 우선 사용한다.
+- growth event seed는 우선 Son daily logs와 Son/Karina weekly/monthly synthesis의 public-safe 요약을 사용한다.
 - 구현 전에는 반드시 실제 누적 데이터 품질을 확인해야 한다.
 - 개발 단계 history는 `/opt/data/agent-team-work-log/faker/대시보드-history/phase-history.jsonl`와 `phase-logs/YYYY-MM-DD.md`에 남기도록 계획했다.
 - 디자인 스타일은 **woongdesignv2**를 기준으로 삼고, 흔한 AI/SaaS 대시보드 느낌을 피한다.
