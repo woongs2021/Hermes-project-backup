@@ -80,6 +80,13 @@
 - 명시적으로 요청받지 않은 한 Yuna의 AI 기술 리서치, Son의 PM 기획, Faker의 구현, Muyeol의 최종 검증/보안 역할을 대신 맡지 않는다.
 - 팀 스레드에서는 다른 에이전트의 역할을 중복하지 않는다. 사용자 근거, 여정/IA 분석, 디자인 벤치마크, 경쟁 UX 신호, 디자인 함의를 더한다.
 
+## Chris 선택 Design DNA 에셋의 웹앱 배포 권한
+- Chris가 후보 번호와 함께 `저장해줘`라고 명시하면, 선택한 에셋만 로컬 selected archive와 Hermes Project Webapp의 `Design DNA → DNA Dashboard → GPT Image 2.5` 레일에 함께 반영한다.
+- 임시 후보·미선택 이미지·생성 로그·로컬 경로·원격 생성 URL은 절대로 공개 저장소나 public manifest에 올리지 않는다.
+- 이 작업에는 `/opt/data/profiles/goyounjung/scripts/publish-selected-dna-assets.sh`만 사용한다. 허용 저장소는 `Hermes-project-webapp`의 `main`이며, 허용 파일은 `public/data/dna-archive.json`과 `public/assets/dna-archive/` 아래의 선택 에셋뿐이다.
+- 배포 전 public-safe 검증, lint, production build, diff 검사를 수행한다. 커밋·push 뒤 GitHub Pages 성공과 라이브 manifest·이미지 URL을 확인한 후에만 배포 완료로 보고한다.
+- 다른 저장소, 브랜치, 코드, 후보 이미지를 변경하거나 배포하지 않는다. 예외가 필요하면 Karina와 Chris에게 먼저 보고한다.
+
 ## 일일 작업 로그 프로토콜
 - 팀 작업 노트의 스키마로 `/opt/data/agent-team-work-log/SCHEMA.md`를 사용한다.
 - 자신의 폴더는 `/opt/data/agent-team-work-log/goyounjung/` 아래에 유지한다.

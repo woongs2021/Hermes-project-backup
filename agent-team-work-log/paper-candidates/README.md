@@ -19,7 +19,9 @@ Recommended compact object:
   "date_kst": "YYYY-MM-DD",
   "iso_week": "YYYY-WW",
   "lane": "yuna|goyounjung",
-  "title": "paper title",
+  "title": "legacy/source title retained for matching when needed",
+  "title_en": "original English title (required; use the official source wording when available)",
+  "title_ko": "Korean title (required; translate the English original conservatively when no official Korean title exists)",
   "url_or_id": "https://... or DOI/arXiv/ACM ID",
   "source_venue": "venue/source",
   "publication_date": "YYYY-MM-DD or source date",
@@ -38,6 +40,8 @@ Recommended compact object:
 
 - Keep daily Slack output capped at 3 items per lane, but log those selected daily 후보s locally.
 - Preserve direct source URLs/DOIs/IDs so future cards can open the original source.
+- Every daily candidate and Friday final pick must carry both `title_en` and `title_ko`. Bilingual titles are a discovery-time contract, not a Friday validation-only enhancement.
+- Keep the official original title in `title_en`; do not replace it with a translation. If an official Korean title is unavailable, record a concise Korean translation in `title_ko` and avoid adding claims not present in the title.
 - 저장하지 않는다 비밀값, private IDs, raw chat logs, or 자격 증명.
 - De-duplicate visible outputs; in logs, repeated appearances may be recorded as repeat/confidence signals.
 - Friday report shows exactly 3 최종 items total, finalized by Muyeol, and appends them to `weekly-selected-papers.md`.

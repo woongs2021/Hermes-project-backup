@@ -21,8 +21,9 @@ Use when Chris asks to add or maintain **Design DNA → DNA Brand Asset** moodbo
 - For each collection, include:
   - `id`, `title`, `created`, `status`, `description`
   - `items[]` with `id`, `title`, `description`, `imageSrc`, `assetHash`, `width`, `height`
-- Group related assets under a named collection rather than adding loose cards. Example: `Coffee Mockup Assets` for cup, pouch, counter, takeaway, and cafe sign references; `Outdoor Mockup Assets 1/2` for outdoor stationery, apparel, mobile, tote, wall, and sign mockup references.
-- Preserve source images as provided; do not crop, compress, upscale, remaster, or synthesize unless Chris explicitly asks.
+- Group related assets under a named collection rather than adding loose cards. Example: `Coffee Mockup Assets` for cup, pouch, counter, takeaway, and cafe sign references; `Outdoor Mockup Assets 1/2` for outdoor stationery, apparel, mobile, tote, wall, and sign mockup references. For a mixed physical-packaging batch (bottle, cap, can, tube, carton, canister, gift crate), add a peer raw collection titled **`Package Mockup Assets`** rather than mixing it into Coffee or Outdoor.
+- The raw collection UI is manifest-driven: append the collection to `collections[]` in `public/data/brand-mockup-assets.json` using the existing item shape, so it receives the existing underline subtab, accessible grid tiles, and detail modal. If overview copy explicitly enumerates collection families, update it to include Package as well.
+- Preserve source images as provided and in received order; do not crop, compress, upscale, remaster, or synthesize unless Chris explicitly asks.
 - For repeated outdoor/lifestyle batches, follow `references/design-dna-outdoor-mockup-collections.md`: append a new `collections[]` entry such as `outdoor-mockup-assets-2`, store public/local assets under the matching collection ID, and verify the new collection tab on live desktop/tablet/mobile.
 - When several raw mockup collections exist, group Coffee/Outdoor/etc. under a top-level **Brand Mockup Assets** lane and keep **Midjourney + Mockup** as the peer lane. Chris asked for the raw collection selector to be underline-style tabs, not card chips; implementation/CSS/QA details are in `references/design-dna-brand-mockup-tab-hierarchy-and-subtab-style.md`.
 

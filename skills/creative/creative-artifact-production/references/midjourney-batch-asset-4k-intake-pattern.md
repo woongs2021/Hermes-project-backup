@@ -9,13 +9,14 @@ Use when Chris sends multiple manual Midjourney images in one Telegram burst and
 3. Store each 1024/source image in both locations:
    - local canonical archive: `/opt/data/dna-archive/midjourney/YYYY-MM-DD/images/NN_slug_manual_midjourney.jpg`
    - webapp asset: `public/assets/dna-archive/midjourney/YYYY-MM-DD/NN_slug_manual_midjourney.jpg`
-4. Generate a 4K detail/download asset for each image with Kling `image_to_image` using `kling-image-v3_0_omni`, `--img_resolution 4k`, `--aspect_ratio 1:1` or `auto`, and an exact-preservation prompt. Store high-res assets under:
+4. **Discover actual high-resolution capability before submitting any paid generation.** Run `kling who_am_i --quiet` (or the provider’s equivalent) and use only a model/resolution combination explicitly declared for the current account. Do not assume `kling-image-v3_0_omni` accepts 4K: account entitlements can expose only 1K/2K. If a real 4K-preservation path is available and the batch scope includes high-resolution detail/downloads, generate one exact-preservation asset per image and store it under:
    - local: `/opt/data/dna-archive/midjourney-4k/YYYY-MM-DD/images/NN_NN_slug_manual_midjourney_kling4k.png`
    - public: `public/assets/dna-archive/midjourney-4k/YYYY-MM-DD/NN_NN_slug_manual_midjourney_kling4k.png`
-5. Parse Kling structured JSON and prefer `urlWithoutWatermark` / `url_without_watermark` / `url` from generation works. Do not save provider logs or uploaded-source URLs under `public/assets`.
-6. For every new manifest item, include both thumbnail/original and high-res fields:
+   If 4K is not explicitly available, publish the verified supplied originals only; do **not** create placeholder high-res fields, claim a 4K download, or silently spend credits on a different model. Record the capability boundary in the private work log and offer a separately approved remaster path when needed.
+5. Parse structured generation JSON only when generation was actually performed; prefer `urlWithoutWatermark` / `url_without_watermark` / `url` from generation works. Do not save provider logs or uploaded-source URLs under `public/assets`.
+6. For every new manifest item, always include source fields:
    - `imageSrc`, `originalImageSrc`, `width`, `height`, `assetHash`
-   - `highResImageSrc`, `highResWidth`, `highResHeight`, `highResAssetHash`, `highResSourceTool`, `highResRemasteredAt`, `highResDownloadLabel`
+   Add `highResImageSrc`, `highResWidth`, `highResHeight`, `highResAssetHash`, `highResSourceTool`, `highResRemasteredAt`, and `highResDownloadLabel` **only** after a real decoded high-res asset has been produced and verified.
 7. Also include the modal-required DNA Dashboard fields for every Midjourney item, not only GPT items:
    - `dnaClusters` as a non-empty array
    - `prompt` (usually the same value as `midjourneyPrompt` for manual Midjourney items)
@@ -33,7 +34,7 @@ Use when Chris sends multiple manual Midjourney images in one Telegram burst and
 
 - Local manifest count increases by exactly the number of images in the batch.
 - Each source file exists and is `1024×1024` or the provided source size; hash matches `assetHash`.
-- Each 4K file exists as `4096×4096 PNG`; hash matches `highResAssetHash`.
+- When high-resolution fields are present, each high-res file exists as the declared size/format and its decoded dimensions and hash match the manifest. Never infer 4K from a filename.
 - `npm run build:public` succeeds.
 - Commit only the relevant manifest plus the new source and 4K assets. Avoid unrelated untracked candidate files.
 - After pushing, wait for live Pages manifest to show the new IDs/count.

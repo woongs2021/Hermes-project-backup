@@ -446,3 +446,78 @@ purpose: Monthly research-growth synthesis source for Chris Park
 - Generative UI must be evaluated against rendered behavior and accessibility, not only persuasive design rationale.
 - AX release quality needs traceability from stated design intent to implemented requirements.
 - Explanation UX is trustworthy only when it supports user judgement and is matched by controllable, testable implementation.
+
+---
+
+## 2026-W43 — weekly 1-pick selected on 2026-10-23 KST
+
+### Selection rationale
+이번 주 1픽은 Chris가 AX/OBD와 미래 One UI에서 개인정보를 정적 동의 화면이 아니라 **에이전트가 실제로 수집·공유·보존·자율 실행하는 순간에 사용자가 통제하고 되돌릴 수 있어야 하는 신뢰 UX**로 보게 하는 데 가장 강한 항목입니다. 후보군의 공동창작·디자인교육·패키지 연구도 유효했으나, 이 항목은 이번 주 반복된 사용자 행위성·검증 가능성 테마를 프라이버시와 실행권 경계로 가장 선명하게 묶고, arXiv v2 전문·27쪽·30개 플랫폼 감사·8개 오픈소스 프로토타입까지 직접 접근 가능하여 웹앱 1픽의 출처 접근성과 실무 전환성이 가장 높습니다.
+
+### Selected weekly 1-pick
+
+#### 에이전트 시스템을 위한 프라이버시 선호 제어 / Privacy Preference Controls for Agentic Systems
+- Lane/source signal: Yuna / Global / agent privacy·trust UX·enforceable preference controls.
+- Source/link/ID: arXiv cs.CY / cs.HC, v2 (2026-10-22; 최초 제출 2026-10-21), arXiv:2610.29929 — https://arxiv.org/abs/2610.29929
+- Source verification: 2026-10-23 UTC arXiv 원문 랜딩/HTML을 직접 확인했습니다. 저자들은 법·기존 프라이버시 도구·주요 AI assistant/agent platform 30개 감사를 토대로 분류를 만들고, 실제 agent application을 모사한 오픈소스 프로토타입 8개로 MCP 및 Agent2Agent 등 프로토콜 통합 가능성을 제시합니다. CC BY 4.0 원문 접근 가능.
+- Chris relevance: 개인정보 UX를 동의 토글에 가두지 않고, 에이전트의 존재·데이터 수집·2차 이용/공유·보존·자율실행을 작업 흐름 안에서 확인·제한·수정하는 AX/One UI의 신뢰 언어로 전환하게 합니다.
+- Muyeol status/caution: GO. 단, arXiv 프리프린트이자 taxonomy/prototype 중심 연구입니다. 실제 장기 사용성, 국내외 법 준수, 타사 agent protocol에서의 기술적 강제력은 독립 검증 전 확정하지 마십시오.
+- Korean-source coverage: 최종 1픽은 Non-Korean. W43의 국내 공동창작·AI 교육·모바일 BX 후보는 보조적 맥락 가치는 있으나, 대체로 초록/메타데이터 또는 소표본·사례 기반이어서 출처 강도와 주간 통합성에서 이 항목을 넘지 못했습니다. 약한 local 균형 맞추기는 하지 않았습니다.
+- De-dup notes: `weekly-selected-papers.md`의 기존 선정과 제목·arXiv ID 기준 중복 없음. W43 JSONL의 duplicate key `arxiv:2610.29929`는 신규이며, 인접 후보의 일반적 privacy/agency 주제 반복은 가중 신호로만 반영했습니다.
+- Lane/source signal: W43의 “AI가 사용자를 대신할수록 실행 중 통제·검증·되돌리기 권한을 화면과 프로토콜에 함께 둬야 한다” 클러스터를 대표하는 최상위 항목.
+- Webapp hook: `Research Cards` 또는 `Agents/AX` 탭, card/status `Agent privacy controls` / `GO`, tags `agent privacy`, `preference controls`, `user autonomy`, `trust UX`, `MCP`. 피해야 할 표현: “이 연구만으로 법적 준수가 보장된다”, “동의 토글을 없애도 된다”, “프로토타입이 모든 agent 환경에서 검증됐다”.
+
+### Monthly synthesis hooks
+- Agent privacy is a runtime control and accountability problem, not a one-time consent screen.
+- Trustworthy delegation needs scoped permissions, observable data handling, user intervention, and revocation/recovery paths.
+- Privacy preference claims require separate validation for usability, enforceability, and jurisdictional compliance.
+
+---
+
+## 2026-W44 — weekly 1-pick selected on 2026-10-30 KST
+
+### Selection rationale
+이번 주 1픽은 Chris께서 생성형 AI의 UX를 “프롬프트를 더 잘 쓰게 하는 화면”이 아니라 **디자이너가 시각적 의도를 조합하고, 탐색과 정밀화를 오가며, 결과에 대한 제어감을 유지하는 작업 언어**로 보시는 데 가장 강한 근거입니다. `DesignPrompt`는 DIS 2024 동료심사 논문으로 Crossref 메타데이터와 공개 저장소 전문을 확인할 수 있고, W44 후보의 반복 주제였던 인간 검토·AI 제어·창작 책임을 미래 One UI와 디자인 시스템의 입력 경험으로 구체화합니다. 한국 후보도 유의미했으나, 이번 1픽은 표본·원문 접근성·주간 통합력에서 이 항목이 더 안정적이어서 약한 local 균형 맞추기를 하지 않았습니다.
+
+### Selected weekly 1-pick
+
+#### 시각적 의도를 조합하는 생성형 AI 디자인 탐색 / DesignPrompt: Using Multimodal Interaction for Design Exploration with Generative AI
+- Lane/source signal: Go Youn-jung / Global / DIS 2024 generative-AI design-tool UX.
+- Source/link/ID: ACM Designing Interactive Systems Conference 2024, proceedings article, 2024-07; DOI `10.1145/3643834.3661588` — https://doi.org/10.1145/3643834.3661588 / 공개 전문 https://hal.science/hal-04652020/document
+- Source verification: 2026-10-30 UTC Crossref 메타데이터에서 ACM 발행 `proceedings-article`, 제목, 2024-07 발행, DOI를 재확인했습니다. 후보 기록의 공개 HAL 전문과 12명 전문 디자이너 비교 관찰 근거를 대조했습니다.
+- Chris relevance: AX/OBD와 미래 One UI에서 입력은 텍스트 프롬프트 단일칸이 아니라 이미지·색·텍스트 같은 의도 재료를 조합하고, 영감 탐색과 정밀한 산출물 요청 사이에서 제어 방식을 바꾸는 경험이어야 한다는 실무적 기준을 제공합니다.
+- Muyeol status/caution: GO. 단, 12명 전문 디자이너의 비교 관찰이므로 생산성·창의성의 보편적 우위나 모든 직군의 선호로 일반화하지 마십시오. 카드에는 검증된 질적 발견만 쓰고, 실제 제품에는 과업별 사용자 검증을 추가하십시오.
+- Korean-source coverage: Non-Korean. 이번 주 국내 후보(`생성형 AI 기반 디자인 소프트웨어를 위한 UX 디자인 가이드라인`, 국내 소상공업 DX 사례)는 맥락 보강 가치가 있으나 각각 원칙의 사용성 검증 미흡, 소표본/단기 현장 검증 한계가 있어 최종 1픽으로는 채택하지 않았습니다.
+- De-dup notes: `weekly-selected-papers.md`의 기존 주간 1픽과 제목·DOI 기준 중복 없음. `all-research-items.jsonl`의 duplicate key `doi:10.1145/3643834.3661588`는 신규이며, W44의 프롬프트·공동창작·인간 검토 후보는 주제 가중 신호로만 반영했습니다.
+- Lane/source signal: W44의 “AI 출력이 아니라 사용자의 의도 표현·비교·조정권을 설계한다” 클러스터를 가장 접근 가능하고 구체적인 HCI 근거로 대표합니다.
+- Webapp hook: `Research Cards` 또는 `Design Tools/AX` 탭, card/status `Multimodal creative control` / `GO`, tags `multimodal prompting`, `creative control`, `design exploration`, `generative-AI UX`, `One UI`. 피해야 할 표현: “멀티모달 입력이 모든 디자이너의 생산성을 입증했다”, “텍스트 프롬프트를 대체한다”, “12명 관찰 결과가 일반 사용자 행동을 증명한다”.
+
+### Monthly synthesis hooks
+- Generative-AI input UX should preserve intent expression, comparison, revision, and calibrated control—not merely prompt completion.
+- Separate exploratory and precision modes; their appropriate controls and evaluation criteria differ.
+- Evaluate multimodal creation tools with task-appropriate user studies before product-wide rollout.
+
+---
+
+## 2026-W45 — weekly 1-pick selected on 2026-11-06 KST
+
+### Selection rationale
+이번 주 1픽은 Chris가 AI 산출물 검증을 “그럴듯한 답에 신뢰 점수를 붙이는 일”이 아니라 **주장을 원자 단위로 분해하고, 각 주장에 근거·검증 상태·재검토 경로를 연결하는 품질 운영**으로 보게 하는 데 가장 강한 항목입니다. 이번 주에는 최신 HCI·디자인 평가 후보도 있었지만, `FActScore`는 ACL Anthology의 직접 접근 가능한 전문과 Crossref 출처를 대조할 수 있어, 신선함보다 검증 가능성·웹앱 전환성·주간 테마 응집도에서 가장 안정적이었습니다.
+
+### Selected weekly 1-pick
+
+#### 주장 단위로 보는 장문 AI 사실성 평가 / FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation
+- Lane/source signal: Yuna / Global / AI-output factuality·claim-level verification.
+- Source/link/ID: Proceedings of EMNLP 2023, Association for Computational Linguistics, 2023-12; DOI `10.18653/v1/2023.emnlp-main.741` — https://aclanthology.org/2023.emnlp-main.741/
+- Source verification: 2026-11-06 KST ACL Anthology 원문 랜딩 HTTP 200, 제목·DOI를 직접 대조했습니다. Crossref에서 proceedings-article, Association for Computational Linguistics 발행, 2023 발행을 재확인했습니다.
+- Chris relevance: Hermes/OBD 결과 카드에서 단일 “신뢰도” 대신 claim–evidence–검증 상태를 남기고, 근거 미연결 또는 고위험 주장을 재검토 큐로 보내는 AX/릴리스 QA 언어를 제공합니다.
+- Muyeol status/caution: GO. 단, 원자 분해·검색 코퍼스·판정 모델의 오류를 함께 물려받으므로 FActScore를 사실 확인 완료, 최신성 보장, 인간 검토 대체로 표기하지 않습니다.
+- Korean-source coverage: Non-Korean. W45에는 KoSimpleQA 및 한국어 생성문서 사실성 평가 등 강한 local 보조 신호가 있었으나, 단일 1픽은 직접 접근 가능한 ACL 원문과 더 넓은 claim–evidence 운영 전환성을 우선했습니다. 약한 local 균형 맞추기는 하지 않았습니다.
+- De-dup notes: `weekly-selected-papers.md`의 기존 1픽과 제목·DOI 기준 중복 없음. `all-research-items.jsonl` W45의 duplicate key `doi:10.18653/v1/2023.emnlp-main.741`는 신규입니다.
+- Lane/source signal: W45의 “AI 검증은 자신감 점수나 출처 배지 하나가 아니라, 주장별 근거 연결·보류·재검토를 운영하는 일” 클러스터를 대표하는 최상위 접근 가능 후보입니다.
+- Webapp hook: `Research Cards` 또는 `Agents/AX` 탭, card/status `Claim-level verification` / `GO`, tags `factuality`, `claim-evidence`, `audit trail`, `human review`. 피해야 할 표현: “점수가 높으면 사실이다”, “자동 검증이 인간 검토를 대체한다”, “출처 링크 하나가 주장을 입증한다”.
+
+### Monthly synthesis hooks
+- AI-output 품질은 문서 전체 인상보다 검증 가능한 주장 단위로 분해한다.
+- 출처의 존재, 주장을 실제로 지지하는지, 최신·권위 있는지의 상태를 분리해 표시한다.
+- 자동 평가는 재검토 우선순위를 정하는 보조 수단이며, 고위험 주장에는 독립 근거와 인간 승인이 필요하다.

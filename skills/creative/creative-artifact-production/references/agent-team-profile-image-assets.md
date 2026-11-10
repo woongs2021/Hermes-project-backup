@@ -39,7 +39,15 @@ When Chris asks to turn his own image into an agent-style representative image:
 1. Use the uploaded portrait as a reference, not a raw persistent web asset.
 2. Match the agent portrait system: square bust portrait, centered/front-facing pose, simple muted studio background, dark blazer/black crew-neck if present, warm but restrained expression.
 3. If Chris asks for “more mannequin-like,” prompt for: more symmetrical front-facing gaze, squared shoulders, smooth refined skin, sculptural facial planes, polished synthetic AI-avatar quality; avoid plastic toy, cartoon, anime, neon, harsh shadows, text, logos, accessories.
-4. With Kling CLI, use:
+4. For delicate portrait retouching (for example, reducing visible makeup while preserving identity), prefer a reference-guided **Higgsfield GPT Image 2.5** pass first:
+   ```bash
+   PATH="/opt/data/.npm-global/bin:$PATH" higgsfield generate create gpt_image_2_5 \
+     --aspect_ratio 1:1 --quality high --resolution 2k \
+     --image-references <reference> \
+     --prompt '<identity-preserving, low-makeup retouch brief>' --wait
+   ```
+   Specify exactly what must stay unchanged (identity, crop, pose, hair, clothing, background) and name the reductions concretely (lip tint, blush, eyeliner, contour, cosmetic highlight, excessive gloss). Download the returned image and visually inspect it before delivery.
+5. Kling remains a fallback for reference-driven portrait refinement:
    ```bash
    HOME=/opt/data PATH="/opt/data/.npm-global/bin:$PATH" kling image_to_image \
      --image <reference> \
@@ -51,8 +59,8 @@ When Chris asks to turn his own image into an agent-style representative image:
      '<prompt>' \
      --quiet
    ```
-   Then download `urlWithoutWatermark` and verify dimensions/hash. Never expose credentials or private auth files.
-5. Save canonical and implementation copies:
+   Use only a verified non-watermarked output (prefer `urlWithoutWatermark` when supplied); do not deliver a preview that contains provider branding. Never expose credentials or private auth files.
+6. Save canonical and implementation copies:
    - `/opt/data/agent-team-assets/profile-images/chris_profile.png`
    - `<webapp>/public/assets/team/chris_profile.png`
 6. For OBD About/Profile cards, interpret requested percentages like “70% size” or “80% of current” as rendered CSS size changes unless Chris asks to downsample the asset. Keep the 2K source and adjust width/grid columns in CSS. Session-proven values after the smaller refinements: desktop `101px`, mobile `92px` for the About OBD profile card.
